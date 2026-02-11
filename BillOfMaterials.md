@@ -2,5 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|1.25in screw|5|$0.00||
-|Total: |5|$0.00| |
+|1.25in screw|10|$0.00||
+|Total: |10|$0.00| |
