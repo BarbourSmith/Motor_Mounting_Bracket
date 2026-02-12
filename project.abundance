@@ -3274,6 +3274,44 @@
           ],
           "tag": "Plastic",
           "tagIndex": 0
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.421957671957672,
+          "y": 0.5722222222222223,
+          "uniqueID": "id-2601",
+          "name": "Motor Part",
+          "ioValues": [
+            {
+              "name": "input",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-2603",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-2605",
+              "name": "input",
+              "type": "geometry"
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
@@ -3291,6 +3329,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-2583",
           "ap2ID": "id-2572"
+        },
+        {
+          "ap2Name": "input",
+          "ap1ID": "id-2583",
+          "ap2ID": "id-2601"
         },
         {
           "ap2Name": "geometry",
