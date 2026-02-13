@@ -887,8 +887,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.17857142857142858,
-              "y": 0.4111111111111111,
+              "x": 0.09457671957671958,
+              "y": 0.32222222222222224,
               "uniqueID": "id-2875",
               "name": "Motor Assembly ",
               "topLevel": false,
@@ -1853,8 +1853,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.4629629629629629,
-              "y": 0.5722222222222223,
+              "x": 0.7632275132275133,
+              "y": 0.5666666666666667,
               "uniqueID": "id-3017",
               "ioValues": [
                 {
@@ -1872,14 +1872,14 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 195
+                  "ioValue": 193
                 }
               ]
             },
             {
               "atomType": "Assembly",
-              "x": 0.4656084656084656,
-              "y": 0.2472222222222222,
+              "x": 0.8624338624338624,
+              "y": 0.2722222222222222,
               "uniqueID": "id-3023",
               "ioValues": [
                 {
@@ -1894,8 +1894,8 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.10185185185185185,
-              "y": 0.7333333333333334,
+              "x": 0.06084656084656084,
+              "y": 0.9083333333333333,
               "uniqueID": "id-3061",
               "ioValues": [
                 {
@@ -1907,8 +1907,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.1798941798941799,
-              "y": 0.7027777777777777,
+              "x": 0.22552910052910055,
+              "y": 0.8861111111111112,
               "uniqueID": "id-3064",
               "ioValues": [
                 {
@@ -1924,8 +1924,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.23809523809523808,
-              "y": 0.8722222222222222,
+              "x": 0.373015873015873,
+              "y": 0.8861111111111112,
               "uniqueID": "id-3068",
               "ioValues": [
                 {
@@ -1948,8 +1948,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.3425925925925926,
-              "y": 0.4722222222222222,
+              "x": 0.6018518518518519,
+              "y": 0.7027777777777777,
               "uniqueID": "id-3074",
               "ioValues": [
                 {
@@ -1964,8 +1964,8 @@
             },
             {
               "atomType": "Tag",
-              "x": 0.3134920634920635,
-              "y": 0.8388888888888888,
+              "x": 0.4953703703703704,
+              "y": 0.8583333333333334,
               "uniqueID": "id-3079",
               "name": "Plastic",
               "ioValues": [
@@ -1980,8 +1980,8 @@
             },
             {
               "atomType": "Rotate",
-              "x": 0.5482804232804233,
-              "y": 0.6833333333333333,
+              "x": 0.8346560846560848,
+              "y": 0.7416666666666667,
               "uniqueID": "id-3082",
               "ioValues": [
                 {
@@ -2001,6 +2001,371 @@
                   "ioValue": 6
                 }
               ]
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.18915343915343916,
+              "y": 0.6194444444444445,
+              "uniqueID": "id-3106",
+              "name": "Drive_Gear",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-3104",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Import",
+                  "x": 0.30224867724867727,
+                  "y": 0.4524495677233429,
+                  "uniqueID": "id-3105",
+                  "fileName": "Drive Gear.step",
+                  "name": "Import",
+                  "type": "STEP",
+                  "repoOwner": "BarbourSmith",
+                  "repoName": "Drive_Gear",
+                  "SVGwidth": 10
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-3105",
+                  "ap2ID": "id-3104"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2026-02-12T18:23:39.160Z",
+                "privateRepo": false,
+                "repoName": "Drive_Gear",
+                "dateCreated": "2026-02-11T04:25:25Z",
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/README.md?sanitize=true",
+                "yyyy": 2026,
+                "topMoleculeID": "id-9",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Drive_Gear",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739658",
+                "ranking": 0,
+                "searchField": "drive_gear barboursmith maslow drive gear ",
+                "owner": "BarbourSmith",
+                "description": "Maslow drive gear",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "MM",
+              "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Rotate",
+              "x": 0.28439153439153436,
+              "y": 0.5833333333333334,
+              "uniqueID": "id-3112",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 90,
+                  "currentEquation": "90"
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.11177248677248677,
+              "y": 0.6055555555555555,
+              "uniqueID": "id-3118",
+              "name": "Gear",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-3120",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Rotate",
+                  "x": 0.2751322751322751,
+                  "y": 0.4694444444444444,
+                  "uniqueID": "id-3125",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "x-axis degrees",
+                      "ioValue": 90
+                    },
+                    {
+                      "name": "y-axis degrees",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "z-axis degrees",
+                      "ioValue": 0
+                    }
+                  ]
+                },
+                {
+                  "atomType": "GitHubMolecule",
+                  "x": 0.15211640211640212,
+                  "y": 0.5166666666666666,
+                  "uniqueID": "id-3122",
+                  "name": "Drive_Gear",
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-3123",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Import",
+                      "x": 0.30224867724867727,
+                      "y": 0.4524495677233429,
+                      "uniqueID": "id-3124",
+                      "fileName": "Drive Gear.step",
+                      "name": "Import",
+                      "type": "STEP",
+                      "repoOwner": "BarbourSmith",
+                      "repoName": "Drive_Gear",
+                      "SVGwidth": 10
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-3124",
+                      "ap2ID": "id-3123"
+                    }
+                  ],
+                  "parentRepo": {
+                    "lastFoundGit": "2026-02-12T18:23:39.160Z",
+                    "privateRepo": false,
+                    "repoName": "Drive_Gear",
+                    "dateCreated": "2026-02-11T04:25:25Z",
+                    "readMe": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/README.md?sanitize=true",
+                    "yyyy": 2026,
+                    "topMoleculeID": "id-9",
+                    "githubMoleculesUsed": [],
+                    "html_url": "https://github.com/BarbourSmith/Drive_Gear",
+                    "topics": [],
+                    "parentRepo": null,
+                    "forks": 0,
+                    "dateModified": "739658",
+                    "ranking": 0,
+                    "searchField": "drive_gear barboursmith maslow drive gear ",
+                    "owner": "BarbourSmith",
+                    "description": "Maslow drive gear",
+                    "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/project.abundance?sanitize=true",
+                    "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/project.svg?sanitize=true",
+                    "isLocal": false
+                  },
+                  "unitsKey": "MM",
+                  "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "GitHubMolecule",
+                  "x": 0.20767195767195767,
+                  "y": 0.8194444444444444,
+                  "uniqueID": "id-3146",
+                  "name": "2D-Rounded-Gear",
+                  "ioValues": [
+                    {
+                      "name": "Teeth",
+                      "ioValue": 13
+                    },
+                    {
+                      "name": "Step",
+                      "ioValue": 6
+                    }
+                  ],
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-3141",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Code",
+                      "x": 0.5257936507936508,
+                      "y": 0.3227665706051873,
+                      "uniqueID": "id-3142",
+                      "ioValues": [
+                        {
+                          "name": "teeth",
+                          "ioValue": 13
+                        },
+                        {
+                          "name": "step",
+                          "ioValue": 6
+                        },
+                        {
+                          "name": "height",
+                          "ioValue": 10
+                        }
+                      ],
+                      "codeVersion": 1,
+                      "code": " \n      //Inputs:[teeth, step, height]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      let angle = 360/(teeth*2); //The angle of each tooth is 1/2 of what would fit to make space for the teeth that come in\n      let radius = (step / 2) / Math.sin(angle / 2 * (Math.PI / 180)); //This is where the teeth circles are positioned\n      let apothem = (step / 2) / Math.tan(angle / 2 * (Math.PI / 180)); //This is the size of the circle that the teeth are subtracted from\n\n      console.log(\"The effective size of the gear is: \");\n      console.log(apothem);\n      console.log(\"The diameter of each tooth is: \");\n      console.log(step/2);\n      \n      //We can also create a new shape from scratch\n      let oneTooth = replicad.drawCircle(step/2)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane();\n      //And we extrude the shape to make it 3D\n      let createdShape = oneTooth.translate([radius, 0]);\n\n      let fusedShape = createdShape.clone();\n\n      for (let i = 1; i < teeth; i++) {\n        fusedShape = fusedShape.fuse(createdShape.clone().rotate(2*angle*i, [0, 0, 0], [0, 0, 1]))\n      } \n\n      let center = replicad.drawCircle(apothem)\n      //This is the plane we are going to put our new shape on\n      //const newPlane2 = new Plane();\n      //And we extrude the shape to make it 3D\n      //let createdShape2 = center.sketchOnPlane(newPlane2).extrude(height);\n      //center = center.cut(fusedShape.clone().rotate(angle+1, [0, 0, 0], [0, 0, 1]));\n\n      let fullGear = fusedShape.clone().fuse(center);\n\n      //Cut away the tooth in spots\n      for (let i = 0; i < teeth; i++) {\n        fullGear = fullGear.cut(createdShape.clone().rotate(2*angle*i + angle + .1, [0, 0, 0], [0, 0, 1])) //The 0.1 here is to account for a bug when the edges allign perfectly\n      } \n\n\n      //fullGear = fullGear.cut(fusedShape.rotate(angle, [0, 0, 0], [0, 0, 1]))\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [fullGear], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      return shape2\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.025384615384615384,
+                      "y": 0.15384615384615385,
+                      "uniqueID": "id-3143",
+                      "name": "Teeth",
+                      "type": "number"
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.025384615384615384,
+                      "y": 0.24615384615384617,
+                      "uniqueID": "id-3144",
+                      "name": "Step",
+                      "type": "number"
+                    },
+                    {
+                      "atomType": "Code",
+                      "x": 0.3412698412698413,
+                      "y": 0.7118155619596541,
+                      "uniqueID": "id-3145",
+                      "ioValues": [
+                        {
+                          "name": "height",
+                          "ioValue": 10
+                        },
+                        {
+                          "name": "teeth",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "step",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ],
+                      "codeVersion": 1,
+                      "code": "//Inputs:[teeth, step, height]\n\n// 1. Setup Standard Gear Parameters\n// In traditional gears, \"step\" translates best to \"Module\" (the metric size unit of the tooth).\n// A Module of 2 is twice as big as a Module of 1.\nlet module = step; \n\n// The Pressure Angle determines how \"steep\" the teeth are. 20 degrees is the industrial standard.\nlet pressureAngle = 20; \n\nconsole.log(\"Generating Involute Gear with Module: \" + module);\nconsole.log(\"Pitch Diameter: \" + (module * teeth));\n\n// 2. Generate the 2D Profile\n// replicad.drawInvoluteGear creates the complex math for the curved teeth automatically.\nlet gearSketch = replicad.drawInvoluteGear({\n    module: module,\n    teeth: teeth,\n    pressureAngle: pressureAngle,\n    // Optional: Add a center hole radius if you need one, e.g., hole: 5\n    hole: 0 \n});\n\n// 3. Define the plane\nconst newPlane = new replicad.Plane();\n\n// 4. Extrude to 3D\n// We take the 2D sketch and pull it up by the 'height' input\nlet gearShape = gearSketch.sketchOnPlane(newPlane).extrude(height);\n\n// 5. Output Object\nlet shape2 = {\n    geometry: [gearShape], \n    tags: [\"StandardGear\"],\n    color: '#A3CE5B',\n    plane: newPlane,\n    bom: []\n}\n\nreturn shape2"
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-3142",
+                      "ap2ID": "id-3141"
+                    },
+                    {
+                      "ap2Name": "teeth",
+                      "ap1ID": "id-3143",
+                      "ap2ID": "id-3142"
+                    },
+                    {
+                      "ap2Name": "step",
+                      "ap1ID": "id-3144",
+                      "ap2ID": "id-3142"
+                    }
+                  ],
+                  "parentRepo": {
+                    "lastFoundGit": "2026-02-12T18:23:39.160Z",
+                    "privateRepo": false,
+                    "repoName": "2D-Rounded-Gear",
+                    "dateCreated": "2025-02-03T20:46:24Z",
+                    "likes": 0,
+                    "readMe": "https://raw.githubusercontent.com/BarbourSmith/2D-Rounded-Gear/master/README.md?sanitize=true",
+                    "yyyy": 2025,
+                    "topMoleculeID": 1738615584571,
+                    "githubMoleculesUsed": [],
+                    "html_url": "https://github.com/BarbourSmith/2D-Rounded-Gear",
+                    "topics": [],
+                    "parentRepo": null,
+                    "forks": 0,
+                    "dateModified": "739658",
+                    "ranking": 1.2,
+                    "searchField": "2d-rounded-gear barboursmith a 2d version of a round tooth gear ",
+                    "owner": "BarbourSmith",
+                    "description": "A 2D version of a round tooth gear",
+                    "contentURL": "https://raw.githubusercontent.com/BarbourSmith/2D-Rounded-Gear/master/project.abundance?sanitize=true",
+                    "svgURL": "https://raw.githubusercontent.com/BarbourSmith/2D-Rounded-Gear/master/project.svg?sanitize=true",
+                    "isLocal": false
+                  },
+                  "unitsKey": "MM",
+                  "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "Extrude",
+                  "x": 0.373015873015873,
+                  "y": 0.7444444444444444,
+                  "uniqueID": "id-3169",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "height",
+                      "ioValue": 20
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3122",
+                  "ap2ID": "id-3125"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3146",
+                  "ap2ID": "id-3169"
+                }
+              ],
+              "fileTypeVersion": 1
             }
           ],
           "allConnectors": [
@@ -2053,22 +2418,14 @@
               "ap2Name": "Shape 3",
               "ap1ID": "id-3082",
               "ap2ID": "id-3023"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-3106",
+              "ap2ID": "id-3112"
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.4034391534391535,
-          "y": 0.7138888888888889,
-          "uniqueID": "id-3058",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 60,
-              "currentEquation": "60"
-            }
-          ]
         },
         {
           "atomType": "ExtractTag",
@@ -2084,6 +2441,37 @@
           ],
           "tag": "Plastic",
           "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.3895502645502646,
+          "y": 0.10277777777777777,
+          "uniqueID": "id-3092",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "keepout",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.6203703703703703,
+          "y": 0.22777777777777777,
+          "uniqueID": "id-3095",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2091,6 +2479,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-2574",
           "ap2ID": "id-2598"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2574",
+          "ap2ID": "id-3092"
         },
         {
           "ap2Name": "geometry",
@@ -2126,6 +2519,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-2601",
           "ap2ID": "id-3088"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-2601",
+          "ap2ID": "id-3095"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-3092",
+          "ap2ID": "id-3095"
         }
       ],
       "fileTypeVersion": 1
