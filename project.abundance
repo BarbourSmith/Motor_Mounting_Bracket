@@ -2125,7 +2125,7 @@
                     },
                     {
                       "name": "Step",
-                      "ioValue": 12
+                      "ioValue": 9
                     }
                   ],
                   "topLevel": false,
@@ -2154,7 +2154,7 @@
                         },
                         {
                           "name": "step",
-                          "ioValue": 12
+                          "ioValue": 9
                         },
                         {
                           "name": "height",
@@ -2553,8 +2553,8 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.697934595524957,
-                  "y": 0.39444444444444443,
+                  "x": 0.7099827882960413,
+                  "y": 0.4111111111111111,
                   "uniqueID": "id-3264",
                   "name": "Cross-Section",
                   "ioValues": [
