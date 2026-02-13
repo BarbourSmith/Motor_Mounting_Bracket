@@ -2030,8 +2030,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.48743386243386244,
-          "y": 0.4,
+          "x": 0.4948364888123924,
+          "y": 0.4083333333333333,
           "uniqueID": "id-2601",
           "name": "Motor Part",
           "ioValues": [
@@ -3861,11 +3861,12 @@
                   "ioValues": [
                     {
                       "name": "Teeth",
-                      "ioValue": 12
+                      "ioValue": 11
                     },
                     {
                       "name": "Step",
-                      "ioValue": 9
+                      "ioValue": 9.2,
+                      "currentEquation": "9.2"
                     }
                   ],
                   "topLevel": false,
@@ -3890,11 +3891,11 @@
                       "ioValues": [
                         {
                           "name": "teeth",
-                          "ioValue": 12
+                          "ioValue": 11
                         },
                         {
                           "name": "step",
-                          "ioValue": 9
+                          "ioValue": 9.2
                         },
                         {
                           "name": "height",
@@ -4156,7 +4157,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "extrude-f488db5c-12-9-10-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20",
+                        "geometry": "extrude-f488db5c-11-9.2-10-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20",
                         "tags": [
                           "aTag"
                         ],
@@ -4722,18 +4723,19 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.20654044750430292,
-              "y": 0.4944444444444444,
+              "x": 0.20740103270223753,
+              "y": 0.5083333333333333,
               "uniqueID": "id-4345",
               "name": "2D-Rounded-Gear",
               "ioValues": [
                 {
                   "name": "Teeth",
-                  "ioValue": 12
+                  "ioValue": 11
                 },
                 {
                   "name": "Step",
-                  "ioValue": 9
+                  "ioValue": 9.2,
+                  "currentEquation": "9.2"
                 }
               ],
               "topLevel": false,
@@ -4758,11 +4760,11 @@
                   "ioValues": [
                     {
                       "name": "teeth",
-                      "ioValue": 12
+                      "ioValue": 11
                     },
                     {
                       "name": "step",
-                      "ioValue": 9
+                      "ioValue": 9.2
                     },
                     {
                       "name": "height",
@@ -4907,8 +4909,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.4810671256454389,
-          "y": 0.7916666666666667,
+          "x": 0.4870912220309811,
+          "y": 0.7722222222222223,
           "uniqueID": "id-4377",
           "ioValues": [
             {
@@ -4925,8 +4927,8 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 20.5,
-              "currentEquation": "20.5"
+              "ioValue": 16,
+              "currentEquation": "16"
             }
           ]
         },
