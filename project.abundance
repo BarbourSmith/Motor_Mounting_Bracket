@@ -80,8 +80,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.7658730158730159,
-      "y": 0.6777777777777777,
+      "x": 0.8218588640275386,
+      "y": 0.7472222222222221,
       "uniqueID": "id-915",
       "name": "Extract Tag",
       "ioValues": [
@@ -92,36 +92,6 @@
       ],
       "tag": "Plastic",
       "tagIndex": 0
-    },
-    {
-      "atomType": "Export",
-      "x": 0.8862433862433862,
-      "y": 0.8126801152737751,
-      "uniqueID": "id-918",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Motor_Mounting_Bracket",
-          "currentEquation": "Motor_Mounting_Bracket"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Motor_Mounting_Bracket"
     },
     {
       "atomType": "Move",
@@ -149,12 +119,16 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6501322751322751,
-      "y": 0.29444444444444445,
+      "x": 0.787435456110155,
+      "y": 0.3805555555555556,
       "uniqueID": "id-2580",
       "ioValues": [
         {
           "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
           "ioValue": null
         }
       ]
@@ -268,10 +242,6 @@
             {
               "name": "Shape 2",
               "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
             }
           ]
         },
@@ -309,11 +279,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-218",
           "ap2ID": "id-221"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-221",
-          "ap2ID": "id-225"
         },
         {
           "ap2Name": "geometry",
@@ -2271,8 +2236,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.27194492254733216,
-              "y": 0.4972222222222222,
+              "x": 0.27796901893287435,
+              "y": 0.5083333333333333,
               "uniqueID": "id-3243",
               "ioValues": [
                 {
@@ -4170,8 +4135,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.3812392426850258,
-          "y": 0.8472222222222222,
+          "x": 0.3846815834767642,
+          "y": 0.836111111111111,
           "uniqueID": "id-4341",
           "name": "Shaft Gear",
           "topLevel": false,
@@ -4359,8 +4324,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7495697074010327,
-          "y": 0.6916666666666667,
+          "x": 0.7504302925989673,
+          "y": 0.6972222222222222,
           "uniqueID": "id-4372",
           "ioValues": [
             {
@@ -4393,8 +4358,8 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 20.5,
+              "currentEquation": "20.5"
             }
           ]
         }
@@ -4441,11 +4406,6 @@
           "ap2ID": "id-3095"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-3095",
-          "ap2ID": "id-2572"
-        },
-        {
           "ap2Name": "Shape 2",
           "ap1ID": "id-3095",
           "ap2ID": "id-4372"
@@ -4471,6 +4431,11 @@
           "ap2ID": "id-4372"
         },
         {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-4372",
+          "ap2ID": "id-2572"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-4377",
           "ap2ID": "id-4366"
@@ -4481,19 +4446,14 @@
   ],
   "allConnectors": [
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-197",
-      "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-197",
-      "ap2ID": "id-915"
-    },
-    {
       "ap2Name": "input",
       "ap1ID": "id-197",
       "ap2ID": "id-2570"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-197",
+      "ap2ID": "id-2580"
     },
     {
       "ap2Name": "Shape 4",
@@ -4501,14 +4461,19 @@
       "ap2ID": "id-197"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-915",
-      "ap2ID": "id-918"
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-2564",
       "ap2ID": "id-2580"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-2580",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2580",
+      "ap2ID": "id-915"
     },
     {
       "ap2Name": "geometry",
