@@ -2003,100 +2003,9 @@
               ]
             },
             {
-              "atomType": "GitHubMolecule",
-              "x": 0.18915343915343916,
-              "y": 0.6194444444444445,
-              "uniqueID": "id-3106",
-              "name": "Drive_Gear",
-              "topLevel": false,
-              "allAtoms": [
-                {
-                  "atomType": "Output",
-                  "x": 0.98,
-                  "y": 0.5,
-                  "uniqueID": "id-3104",
-                  "ioValues": [
-                    {
-                      "name": "number or geometry",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Import",
-                  "x": 0.30224867724867727,
-                  "y": 0.4524495677233429,
-                  "uniqueID": "id-3105",
-                  "fileName": "Drive Gear.step",
-                  "name": "Import",
-                  "type": "STEP",
-                  "repoOwner": "BarbourSmith",
-                  "repoName": "Drive_Gear",
-                  "SVGwidth": 10
-                }
-              ],
-              "allConnectors": [
-                {
-                  "ap2Name": "number or geometry",
-                  "ap1ID": "id-3105",
-                  "ap2ID": "id-3104"
-                }
-              ],
-              "parentRepo": {
-                "lastFoundGit": "2026-02-12T18:23:39.160Z",
-                "privateRepo": false,
-                "repoName": "Drive_Gear",
-                "dateCreated": "2026-02-11T04:25:25Z",
-                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/README.md?sanitize=true",
-                "yyyy": 2026,
-                "topMoleculeID": "id-9",
-                "githubMoleculesUsed": [],
-                "html_url": "https://github.com/BarbourSmith/Drive_Gear",
-                "topics": [],
-                "parentRepo": null,
-                "forks": 0,
-                "dateModified": "739658",
-                "ranking": 0,
-                "searchField": "drive_gear barboursmith maslow drive gear ",
-                "owner": "BarbourSmith",
-                "description": "Maslow drive gear",
-                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/project.abundance?sanitize=true",
-                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Drive_Gear/master/project.svg?sanitize=true",
-                "isLocal": false
-              },
-              "unitsKey": "MM",
-              "fileTypeVersion": 1
-            },
-            {
-              "atomType": "Rotate",
-              "x": 0.28439153439153436,
-              "y": 0.5833333333333334,
-              "uniqueID": "id-3112",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "x-axis degrees",
-                  "ioValue": 90,
-                  "currentEquation": "90"
-                },
-                {
-                  "name": "y-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
-                },
-                {
-                  "name": "z-axis degrees",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
               "atomType": "Molecule",
-              "x": 0.11177248677248677,
-              "y": 0.6055555555555555,
+              "x": 0.11531841652323581,
+              "y": 0.5888888888888889,
               "uniqueID": "id-3118",
               "name": "Gear",
               "topLevel": false,
@@ -2115,8 +2024,8 @@
                 },
                 {
                   "atomType": "Rotate",
-                  "x": 0.2751322751322751,
-                  "y": 0.4694444444444444,
+                  "x": 0.292989417989418,
+                  "y": 0.21111111111111114,
                   "uniqueID": "id-3125",
                   "ioValues": [
                     {
@@ -2139,8 +2048,8 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.15211640211640212,
-                  "y": 0.5166666666666666,
+                  "x": 0.10648148148148147,
+                  "y": 0.28055555555555556,
                   "uniqueID": "id-3122",
                   "name": "Drive_Gear",
                   "topLevel": false,
@@ -2204,18 +2113,19 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.20767195767195767,
-                  "y": 0.8194444444444444,
+                  "x": 0.148881239242685,
+                  "y": 0.7833333333333333,
                   "uniqueID": "id-3146",
                   "name": "2D-Rounded-Gear",
                   "ioValues": [
                     {
                       "name": "Teeth",
-                      "ioValue": 13
+                      "ioValue": 14
                     },
                     {
                       "name": "Step",
-                      "ioValue": 6
+                      "ioValue": 12,
+                      "currentEquation": "12"
                     }
                   ],
                   "topLevel": false,
@@ -2240,11 +2150,11 @@
                       "ioValues": [
                         {
                           "name": "teeth",
-                          "ioValue": 13
+                          "ioValue": 14
                         },
                         {
                           "name": "step",
-                          "ioValue": 6
+                          "ioValue": 12
                         },
                         {
                           "name": "height",
@@ -2338,8 +2248,8 @@
                 },
                 {
                   "atomType": "Extrude",
-                  "x": 0.373015873015873,
-                  "y": 0.7444444444444444,
+                  "x": 0.2837301587301587,
+                  "y": 0.7694444444444444,
                   "uniqueID": "id-3169",
                   "ioValues": [
                     {
@@ -2348,12 +2258,132 @@
                     },
                     {
                       "name": "height",
-                      "ioValue": 20
+                      "ioValue": 20,
+                      "currentEquation": "20"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Assembly",
+                  "x": 0.5747354497354497,
+                  "y": 0.5944444444444444,
+                  "uniqueID": "id-3173",
+                  "ioValues": [
+                    {
+                      "name": "Shape 1",
+                      "ioValue": null
+                    },
+                    {
+                      "name": "Shape 2",
+                      "ioValue": null
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.38095238095238093,
+                  "y": 0.21944444444444444,
+                  "uniqueID": "id-3177",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 7
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Tag",
+                  "x": 0.375,
+                  "y": 0.8166666666666667,
+                  "uniqueID": "id-3184",
+                  "name": "Gear Plastic",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ],
+                  "tags": [
+                    "Gear Plastic"
+                  ]
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.15211640211640212,
+                  "y": 0.46388888888888885,
+                  "uniqueID": "id-3187",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 10
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Extrude",
+                  "x": 0.28439153439153436,
+                  "y": 0.4916666666666667,
+                  "uniqueID": "id-3190",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "height",
+                      "ioValue": 7,
+                      "currentEquation": "7"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Color",
+                  "x": 0.35449735449735453,
+                  "y": 0.5222222222222221,
+                  "uniqueID": "id-3194",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ],
+                  "selectedColor": "Keep Out"
+                },
+                {
+                  "atomType": "Assembly",
+                  "x": 0.43452380952380953,
+                  "y": 0.4111111111111111,
+                  "uniqueID": "id-3197",
+                  "ioValues": [
+                    {
+                      "name": "Shape 1",
+                      "ioValue": null
+                    },
+                    {
+                      "name": "Shape 2",
+                      "ioValue": null
                     }
                   ]
                 }
               ],
               "allConnectors": [
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3125",
+                  "ap2ID": "id-3177"
+                },
                 {
                   "ap2Name": "geometry",
                   "ap1ID": "id-3122",
@@ -2363,6 +2393,46 @@
                   "ap2Name": "geometry",
                   "ap1ID": "id-3146",
                   "ap2ID": "id-3169"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3169",
+                  "ap2ID": "id-3184"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-3173",
+                  "ap2ID": "id-3120"
+                },
+                {
+                  "ap2Name": "Shape 2",
+                  "ap1ID": "id-3177",
+                  "ap2ID": "id-3197"
+                },
+                {
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-3184",
+                  "ap2ID": "id-3173"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3187",
+                  "ap2ID": "id-3190"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3190",
+                  "ap2ID": "id-3194"
+                },
+                {
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-3194",
+                  "ap2ID": "id-3197"
+                },
+                {
+                  "ap2Name": "Shape 2",
+                  "ap1ID": "id-3197",
+                  "ap2ID": "id-3173"
                 }
               ],
               "fileTypeVersion": 1
@@ -2418,11 +2488,6 @@
               "ap2Name": "Shape 3",
               "ap1ID": "id-3082",
               "ap2ID": "id-3023"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-3106",
-              "ap2ID": "id-3112"
             }
           ],
           "fileTypeVersion": 1
