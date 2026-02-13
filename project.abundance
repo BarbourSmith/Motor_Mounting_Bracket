@@ -2510,8 +2510,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.49404761904761907,
-          "y": 0.4111111111111111,
+          "x": 0.4973544973544974,
+          "y": 0.43333333333333335,
           "uniqueID": "id-2601",
           "name": "Motor Part",
           "ioValues": [
@@ -2902,8 +2902,8 @@
                 },
                 {
                   "atomType": "Extrude",
-                  "x": 0.23082010582010581,
-                  "y": 0.9249999999999999,
+                  "x": 0.23015873015873015,
+                  "y": 0.9305555555555556,
                   "uniqueID": "id-3049",
                   "ioValues": [
                     {
@@ -2912,7 +2912,7 @@
                     },
                     {
                       "name": "height",
-                      "ioValue": 6
+                      "ioValue": 9
                     }
                   ]
                 },
@@ -2925,7 +2925,7 @@
                     {
                       "name": "Shape 1",
                       "ioValue": {
-                        "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
+                        "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -6255,8 +6255,8 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 55,
-                  "currentEquation": "55"
+                  "ioValue": 45,
+                  "currentEquation": "45"
                 }
               ]
             }
