@@ -3,6 +3,6 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |New Item|1|$0.00||
-|10mm M3 Bolt|4|$0.00||
+|10mm M3 Bolt|7|$0.00||
 |1.25in screw|10|$0.00||
-|Total: |15|$0.00| |
+|Total: |18|$0.00| |
