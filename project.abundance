@@ -10509,7 +10509,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": 0
+                      "ioValue": 1
                     }
                   ]
                 }
