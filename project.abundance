@@ -2389,6 +2389,10 @@
                 {
                   "name": "yDist",
                   "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 44
                 }
               ]
             },
@@ -2401,6 +2405,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 90
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
                 }
               ]
             },
@@ -4976,8 +4992,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.24268502581755594,
-              "y": 0.6388888888888888,
+              "x": 0.2718253968253968,
+              "y": 0.675,
               "uniqueID": "id-3237",
               "ioValues": [
                 {
@@ -5161,8 +5177,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.10251322751322753,
-              "y": 0.3527777777777778,
+              "x": 0.20171957671957674,
+              "y": 0.5138888888888888,
               "uniqueID": "id-2875",
               "name": "Motor Assembly ",
               "topLevel": false,
@@ -6142,8 +6158,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.11838624338624339,
-              "y": 0.5805555555555555,
+              "x": 0.10648148148148147,
+              "y": 0.6472222222222223,
               "uniqueID": "id-3118",
               "name": "Gear",
               "topLevel": false,
@@ -12843,8 +12859,8 @@
                 },
                 {
                   "atomType": "Assembly",
-                  "x": 0.5257936507936508,
-                  "y": 0.6694444444444444,
+                  "x": 0.7817460317460317,
+                  "y": 0.675,
                   "uniqueID": "id-8790",
                   "ioValues": [
                     {
@@ -12859,8 +12875,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.29563492063492064,
-                  "y": 0.7722222222222223,
+                  "x": 0.2691798941798942,
+                  "y": 0.8888888888888888,
                   "uniqueID": "id-8795",
                   "ioValues": [
                     {
@@ -12883,8 +12899,8 @@
                 },
                 {
                   "atomType": "Molecule",
-                  "x": 0.11706349206349206,
-                  "y": 0.7527777777777778,
+                  "x": 0.09854497354497355,
+                  "y": 0.8277777777777777,
                   "uniqueID": "id-8760",
                   "name": "Arm",
                   "topLevel": false,
@@ -13101,8 +13117,8 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.24801587301587302,
-                  "y": 0.31666666666666665,
+                  "x": 0.2506613756613757,
+                  "y": 0.3111111111111111,
                   "uniqueID": "id-5424",
                   "name": "Maslow_Encoder_Board",
                   "topLevel": false,
@@ -14158,14 +14174,25 @@
                   },
                   "unitsKey": "MM",
                   "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "Rectangle",
+                  "x": 0.2698412698412698,
+                  "y": 0.5750000000000001,
+                  "uniqueID": "id-26378",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 14
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 26
+                    }
+                  ]
                 }
               ],
               "allConnectors": [
-                {
-                  "ap2Name": "number or geometry",
-                  "ap1ID": "id-8790",
-                  "ap2ID": "id-4532"
-                },
                 {
                   "ap2Name": "Shape 2",
                   "ap1ID": "id-8795",
@@ -14180,6 +14207,11 @@
                   "ap2Name": "Shape 1",
                   "ap1ID": "id-5424",
                   "ap2ID": "id-8790"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-5424",
+                  "ap2ID": "id-4532"
                 }
               ],
               "fileTypeVersion": 1
