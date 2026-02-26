@@ -1072,10 +1072,6 @@
                 {
                   "name": "distZ",
                   "ioValue": 31
-                },
-                {
-                  "name": "Shape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1141,6 +1137,10 @@
                 {
                   "name": "distZ",
                   "ioValue": 0
+                },
+                {
+                  "name": "Shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -2517,8 +2517,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.37632275132275134,
-          "y": 0.8416666666666667,
+          "x": 0.37896825396825395,
+          "y": 0.8388888888888888,
           "uniqueID": "id-4341",
           "name": "Shaft Gear",
           "topLevel": false,
@@ -2619,7 +2619,7 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "tag": "Shaft Gear Plastic",
+              "tag": "Outer Clamp Plastic",
               "tagIndex": 0
             },
             {
@@ -3205,10 +3205,6 @@
                         {
                           "name": "Angle",
                           "ioValue": 120
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -3345,8 +3341,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.4041005291005291,
-              "y": 0.8972222222222223,
+              "x": 0.4074074074074074,
+              "y": 0.9055555555555556,
               "uniqueID": "id-11889",
               "name": "Clamp",
               "topLevel": false,
@@ -4309,10 +4305,6 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 72
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -4765,6 +4757,36 @@
                 }
               ],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Export",
+              "x": 0.8492063492063493,
+              "y": 0.8027777777777778,
+              "uniqueID": "id-30127",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "File Type",
+                  "ioValue": "STL",
+                  "currentEquation": "STL"
+                },
+                {
+                  "name": "Resolution (dpi)",
+                  "ioValue": 96
+                },
+                {
+                  "name": "Part Name",
+                  "ioValue": "Shaft Gear",
+                  "currentEquation": "Shaft Gear"
+                }
+              ],
+              "type": null,
+              "resolution": 96,
+              "importIndex": 0,
+              "partName": "Shaft Gear"
             }
           ],
           "allConnectors": [
@@ -4792,6 +4814,11 @@
               "ap2Name": "Shape 2",
               "ap1ID": "id-12085",
               "ap2ID": "id-12081"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-12092",
+              "ap2ID": "id-30127"
             },
             {
               "ap2Name": "geometry",
@@ -5662,6 +5689,10 @@
                         {
                           "name": "Angle",
                           "ioValue": 90
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -14204,10 +14235,6 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 90
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
