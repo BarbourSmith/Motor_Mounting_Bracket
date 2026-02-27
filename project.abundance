@@ -1072,6 +1072,10 @@
                 {
                   "name": "distZ",
                   "ioValue": 31
+                },
+                {
+                  "name": "Shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1137,10 +1141,6 @@
                 {
                   "name": "distZ",
                   "ioValue": 0
-                },
-                {
-                  "name": "Shape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -2517,8 +2517,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.37896825396825395,
-          "y": 0.8388888888888888,
+          "x": 0.3796296296296296,
+          "y": 0.875,
           "uniqueID": "id-4341",
           "name": "Shaft Gear",
           "topLevel": false,
@@ -2756,6 +2756,36 @@
                   "ioValue": 20
                 }
               ]
+            },
+            {
+              "atomType": "Export",
+              "x": 0.8492063492063493,
+              "y": 0.8027777777777778,
+              "uniqueID": "id-30127",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "File Type",
+                  "ioValue": "STL",
+                  "currentEquation": "STL"
+                },
+                {
+                  "name": "Resolution (dpi)",
+                  "ioValue": 96
+                },
+                {
+                  "name": "Part Name",
+                  "ioValue": "Shaft Gear",
+                  "currentEquation": "Shaft Gear"
+                }
+              ],
+              "type": null,
+              "resolution": 96,
+              "importIndex": 0,
+              "partName": "Shaft Gear"
             },
             {
               "atomType": "GitHubMolecule",
@@ -3205,6 +3235,10 @@
                         {
                           "name": "Angle",
                           "ioValue": 120
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -4305,6 +4339,10 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 72
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -4757,36 +4795,6 @@
                 }
               ],
               "fileTypeVersion": 1
-            },
-            {
-              "atomType": "Export",
-              "x": 0.8492063492063493,
-              "y": 0.8027777777777778,
-              "uniqueID": "id-30127",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "File Type",
-                  "ioValue": "STL",
-                  "currentEquation": "STL"
-                },
-                {
-                  "name": "Resolution (dpi)",
-                  "ioValue": 96
-                },
-                {
-                  "name": "Part Name",
-                  "ioValue": "Shaft Gear",
-                  "currentEquation": "Shaft Gear"
-                }
-              ],
-              "type": null,
-              "resolution": 96,
-              "importIndex": 0,
-              "partName": "Shaft Gear"
             }
           ],
           "allConnectors": [
@@ -5689,10 +5697,6 @@
                         {
                           "name": "Angle",
                           "ioValue": 90
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -12187,7 +12191,7 @@
                     },
                     {
                       "atomType": "Molecule",
-                      "x": 0.1898148148148148,
+                      "x": 0.20238095238095238,
                       "y": 0.2777777777777778,
                       "uniqueID": "id-8617",
                       "name": "Outside",
@@ -12392,7 +12396,7 @@
                     {
                       "atomType": "Molecule",
                       "x": 0.07473544973544974,
-                      "y": 0.5722222222222223,
+                      "y": 0.5611111111111111,
                       "uniqueID": "id-8665",
                       "name": "Cutaway",
                       "ioValues": [
@@ -12796,13 +12800,117 @@
                         }
                       ],
                       "fileTypeVersion": 1
+                    },
+                    {
+                      "atomType": "Rectangle",
+                      "x": 0.5496031746031745,
+                      "y": 0.7416666666666667,
+                      "uniqueID": "id-31962",
+                      "ioValues": [
+                        {
+                          "name": "x length",
+                          "ioValue": 30,
+                          "currentEquation": "30"
+                        },
+                        {
+                          "name": "y length",
+                          "ioValue": 22
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Extrude",
+                      "x": 0.646957671957672,
+                      "y": 0.7777777777777777,
+                      "uniqueID": "id-31966",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "height",
+                          "ioValue": 10
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Move",
+                      "x": 0.7466931216931217,
+                      "y": 0.7416666666666667,
+                      "uniqueID": "id-31970",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "xDist",
+                          "ioValue": 50,
+                          "currentEquation": "50"
+                        },
+                        {
+                          "name": "yDist",
+                          "ioValue": -13
+                        },
+                        {
+                          "name": "zDist",
+                          "ioValue": 12
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Difference",
+                      "x": 0.8280423280423281,
+                      "y": 0.4166666666666667,
+                      "uniqueID": "id-31976",
+                      "ioValues": [
+                        {
+                          "name": "geometry1",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "geometry2",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Export",
+                      "x": 0.8743386243386243,
+                      "y": 0.7611111111111112,
+                      "uniqueID": "id-31980",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "File Type",
+                          "ioValue": "STL",
+                          "currentEquation": "STL"
+                        },
+                        {
+                          "name": "Resolution (dpi)",
+                          "ioValue": 96
+                        },
+                        {
+                          "name": "Part Name",
+                          "ioValue": "Cover",
+                          "currentEquation": "Cover"
+                        }
+                      ],
+                      "type": null,
+                      "resolution": 96,
+                      "importIndex": 0,
+                      "partName": "Cover"
                     }
                   ],
                   "allConnectors": [
                     {
-                      "ap2Name": "number or geometry",
+                      "ap2Name": "geometry1",
                       "ap1ID": "id-8727",
-                      "ap2ID": "id-8452"
+                      "ap2ID": "id-31976"
                     },
                     {
                       "ap2Name": "Shape 2",
@@ -12833,6 +12941,31 @@
                       "ap2Name": "geometry",
                       "ap1ID": "id-8696",
                       "ap2ID": "id-8748"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-31962",
+                      "ap2ID": "id-31966"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-31966",
+                      "ap2ID": "id-31970"
+                    },
+                    {
+                      "ap2Name": "geometry2",
+                      "ap1ID": "id-31970",
+                      "ap2ID": "id-31976"
+                    },
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-31976",
+                      "ap2ID": "id-8452"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-31976",
+                      "ap2ID": "id-31980"
                     }
                   ],
                   "fileTypeVersion": 1
@@ -14235,6 +14368,10 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 90
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
