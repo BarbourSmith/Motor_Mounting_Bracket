@@ -5144,8 +5144,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.6263227513227514,
-          "y": 0.24166666666666664,
+          "x": 0.625,
+          "y": 0.23888888888888887,
           "uniqueID": "id-3095",
           "ioValues": [
             {
@@ -5477,8 +5477,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.37896825396825395,
-          "y": 0.8722222222222222,
+          "x": 0.38095238095238093,
+          "y": 0.8666666666666667,
           "uniqueID": "id-4341",
           "name": "Shaft Gear",
           "topLevel": false,
@@ -6762,8 +6762,8 @@
                     },
                     {
                       "atomType": "Molecule",
-                      "x": 0.6144179894179894,
-                      "y": 0.7416666666666667,
+                      "x": 0.6150793650793651,
+                      "y": 0.7361111111111112,
                       "uniqueID": "id-13687",
                       "name": "Mounting Bolts",
                       "ioValues": [
@@ -6948,8 +6948,8 @@
                         },
                         {
                           "atomType": "GitHubMolecule",
-                          "x": 0.13822751322751323,
-                          "y": 0.5972222222222222,
+                          "x": 0.1388888888888889,
+                          "y": 0.5888888888888889,
                           "uniqueID": "id-13710",
                           "name": "M3 Bolt",
                           "ioValues": [
@@ -7736,6 +7736,55 @@
                           },
                           "unitsKey": "MM",
                           "fileTypeVersion": 1
+                        },
+                        {
+                          "atomType": "Rotate",
+                          "x": 0.548941798941799,
+                          "y": 0.7666666666666666,
+                          "uniqueID": "id-47057",
+                          "ioValues": [
+                            {
+                              "name": "geometry",
+                              "ioValue": "__GEOMETRY_INPUT__"
+                            },
+                            {
+                              "name": "x-axis degrees",
+                              "ioValue": 0
+                            },
+                            {
+                              "name": "y-axis degrees",
+                              "ioValue": 180,
+                              "currentEquation": "180"
+                            },
+                            {
+                              "name": "z-axis degrees",
+                              "ioValue": 0
+                            }
+                          ]
+                        },
+                        {
+                          "atomType": "Move",
+                          "x": 0.6489417989417989,
+                          "y": 0.7666666666666666,
+                          "uniqueID": "id-47063",
+                          "ioValues": [
+                            {
+                              "name": "geometry",
+                              "ioValue": "__GEOMETRY_INPUT__"
+                            },
+                            {
+                              "name": "xDist",
+                              "ioValue": 0
+                            },
+                            {
+                              "name": "yDist",
+                              "ioValue": 0
+                            },
+                            {
+                              "name": "zDist",
+                              "ioValue": -17
+                            }
+                          ]
                         }
                       ],
                       "allConnectors": [
@@ -7762,7 +7811,7 @@
                         {
                           "ap2Name": "geometry",
                           "ap1ID": "id-15545",
-                          "ap2ID": "id-13752"
+                          "ap2ID": "id-47057"
                         },
                         {
                           "ap2Name": "geometry",
@@ -7793,6 +7842,16 @@
                           "ap2Name": "geometry",
                           "ap1ID": "id-17301",
                           "ap2ID": "id-15533"
+                        },
+                        {
+                          "ap2Name": "geometry",
+                          "ap1ID": "id-47057",
+                          "ap2ID": "id-47063"
+                        },
+                        {
+                          "ap2Name": "geometry",
+                          "ap1ID": "id-47063",
+                          "ap2ID": "id-13752"
                         }
                       ],
                       "fileTypeVersion": 1
@@ -7977,7 +8036,7 @@
           "x": 0.5046296296296297,
           "y": 0.4166666666666667,
           "uniqueID": "id-2601",
-          "name": "",
+          "name": "Motor Part",
           "ioValues": [
             {
               "name": "input",
@@ -16583,18 +16642,20 @@
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 8
+                      "ioValue": 100,
+                      "currentEquation": "100"
                     },
                     {
                       "name": "y length",
-                      "ioValue": 18
+                      "ioValue": 8,
+                      "currentEquation": "8"
                     }
                   ]
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.30224867724867727,
-                  "y": 0.7277777777777777,
+                  "x": 0.30423280423280424,
+                  "y": 0.7361111111111112,
                   "uniqueID": "id-26396",
                   "ioValues": [
                     {
@@ -16603,11 +16664,12 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 1
+                      "ioValue": -50,
+                      "currentEquation": "-50"
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 25
+                      "ioValue": 8
                     },
                     {
                       "name": "zDist",
@@ -16651,7 +16713,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "extrude-move-rectangle-8-18-1-25-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11",
+                        "geometry": "extrude-move-rectangle-100-8--50-8-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11",
                         "dimension": "3D",
                         "plane": {
                           "origin": [
