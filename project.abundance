@@ -5114,8 +5114,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.7407407407407407,
-          "y": 0.21944444444444444,
+          "x": 0.7466931216931217,
+          "y": 0.22777777777777777,
           "uniqueID": "id-3088",
           "name": "Extract Tag",
           "ioValues": [
@@ -8341,7 +8341,7 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "tag": "Gear Plastic",
+              "tag": "Plastic",
               "tagIndex": 0
             },
             {
@@ -11830,7 +11830,8 @@
                         },
                         {
                           "name": "xDist",
-                          "ioValue": -7
+                          "ioValue": 5,
+                          "currentEquation": "5"
                         },
                         {
                           "name": "yDist",
@@ -12324,7 +12325,7 @@
                         {
                           "name": "Shape 2",
                           "ioValue": {
-                            "geometry": "move-rotate-cut-move-4a078758-15-70-45-0-0--7-0-rotate-move-extrude-rectangle-40000-40000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0--90-0-0-0-0-90--7-12-0",
+                            "geometry": "move-rotate-cut-move-4a078758-15-70-45-0-0--7-0-rotate-move-extrude-rectangle-40000-40000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0--90-0-0-0-0-90-5-12-0",
                             "tags": [
                               "aTag"
                             ],
@@ -12353,7 +12354,7 @@
                         {
                           "name": "Shape 4",
                           "ioValue": {
-                            "geometry": "move-rotate-cut-move-4a078758-15-70-45-0-0--7-0-rotate-move-extrude-rectangle-40000-40000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0--90-0-0-0-0-90--5--12-0",
+                            "geometry": "move-rotate-cut-move-4a078758-15-70-45-0-0--7-0-rotate-move-extrude-rectangle-40000-40000-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4000-0-0-0--90-0-0-0-0-90-5--12-0",
                             "tags": [
                               "aTag"
                             ],
@@ -12394,7 +12395,8 @@
                         },
                         {
                           "name": "xDist",
-                          "ioValue": -5
+                          "ioValue": 5,
+                          "currentEquation": "5"
                         },
                         {
                           "name": "yDist",
