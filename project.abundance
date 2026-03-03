@@ -15013,8 +15013,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.22883597883597884,
-          "y": 0.6694444444444444,
+          "x": 0.1164021164021164,
+          "y": 0.5444444444444444,
           "uniqueID": "id-37586",
           "name": "U Bolt",
           "topLevel": false,
@@ -15033,8 +15033,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.18121693121693122,
-              "y": 0.6888888888888889,
+              "x": 0.1818783068783069,
+              "y": 0.3611111111111111,
               "uniqueID": "id-37667",
               "name": "5_Inch_U-Bolt",
               "topLevel": false,
@@ -17097,12 +17097,107 @@
               },
               "unitsKey": "MM",
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.23148148148148145,
+              "y": 0.7361111111111112,
+              "uniqueID": "id-37926",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 107
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 21
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.3314814814814815,
+              "y": 0.7361111111111112,
+              "uniqueID": "id-37930",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 30,
+                  "currentEquation": "30"
+                }
+              ]
+            },
+            {
+              "atomType": "Color",
+              "x": 0.47288359788359785,
+              "y": 0.7027777777777777,
+              "uniqueID": "id-37934",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "selectedColor": "Keep Out"
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.6600529100529101,
+              "y": 0.47500000000000003,
+              "uniqueID": "id-37937",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": null
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.5562169312169313,
+              "y": 0.7083333333333333,
+              "uniqueID": "id-37942",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 35,
+                  "currentEquation": "35"
+                }
+              ]
             }
           ],
           "allConnectors": [
             {
-              "ap2Name": "number or geometry",
+              "ap2Name": "Shape 2",
               "ap1ID": "id-37667",
+              "ap2ID": "id-37937"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-37926",
+              "ap2ID": "id-37930"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-37930",
+              "ap2ID": "id-37934"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-37934",
+              "ap2ID": "id-37937"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-37937",
               "ap2ID": "id-37588"
             }
           ],
@@ -17110,8 +17205,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.5416666666666666,
-          "y": 0.3722222222222222,
+          "x": 0.5707671957671958,
+          "y": 0.24444444444444444,
           "uniqueID": "id-37906",
           "ioValues": [
             {
@@ -17126,8 +17221,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.3419312169312169,
-          "y": 0.7027777777777777,
+          "x": 0.21031746031746032,
+          "y": 0.40555555555555556,
           "uniqueID": "id-37910",
           "ioValues": [
             {
@@ -17152,8 +17247,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.45171957671957674,
-          "y": 0.7722222222222223,
+          "x": 0.35185185185185186,
+          "y": 0.5333333333333333,
           "uniqueID": "id-37916",
           "ioValues": [
             {
