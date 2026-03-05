@@ -15685,7 +15685,7 @@
                       "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
-                  "tag": "Upright Plastic",
+                  "tag": "Encoder Arm Plastic",
                   "tagIndex": 0
                 },
                 {
@@ -18365,7 +18365,7 @@
                           "x": 0.8538359788359788,
                           "y": 0.75,
                           "uniqueID": "id-47426",
-                          "name": "Arm Plastic",
+                          "name": "Encoder Arm Plastic",
                           "ioValues": [
                             {
                               "name": "geometry",
@@ -18373,7 +18373,7 @@
                             }
                           ],
                           "tags": [
-                            "Arm Plastic"
+                            "Encoder Arm Plastic"
                           ]
                         }
                       ],
@@ -18548,11 +18548,57 @@
                           "ioValues": [
                             {
                               "name": "Shape 1",
-                              "ioValue": null
+                              "ioValue": {
+                                "geometry": "move-extrude-circle-40-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-0--64-0",
+                                "dimension": "3D",
+                                "tags": [],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "bom": []
+                              }
                             },
                             {
                               "name": "Shape 2",
-                              "ioValue": null
+                              "ioValue": {
+                                "geometry": "move-extrude-rectangle-500-500-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-500--300-0-0",
+                                "dimension": "3D",
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                              }
                             }
                           ],
                           "unionType": "Fusion"
@@ -19758,14 +19804,14 @@
                     },
                     {
                       "name": "Part Name",
-                      "ioValue": "Arm Vertical",
-                      "currentEquation": "Arm Vertical"
+                      "ioValue": "Horizontal Arm",
+                      "currentEquation": "Horizontal Arm"
                     }
                   ],
                   "type": null,
                   "resolution": 96,
                   "importIndex": 0,
-                  "partName": "Arm Vertical"
+                  "partName": "Horizontal Arm"
                 }
               ],
               "allConnectors": [
