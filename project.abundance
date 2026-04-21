@@ -5598,8 +5598,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7552910052910052,
-          "y": 0.6740947075208913,
+          "x": 0.759920634920635,
+          "y": 0.6768802228412256,
           "uniqueID": "id-4372",
           "ioValues": [
             {
@@ -14473,36 +14473,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Readme",
-          "x": 0.3194444444444444,
-          "y": 0.42061281337047357,
-          "uniqueID": "id-74597",
-          "name": "README",
-          "ioValues": [
-            {
-              "name": "value",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "readMeText": "This is a gear for steering",
-          "global": true
-        },
-        {
-          "atomType": "Readme",
-          "x": 0.8154761904761905,
-          "y": 0.5431754874651811,
-          "uniqueID": "id-74599",
-          "name": "README",
-          "ioValues": [
-            {
-              "name": "value",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "readMeText": "Readme text here",
-          "global": true
         }
       ],
       "allConnectors": [
@@ -14577,11 +14547,6 @@
           "ap2ID": "id-4439"
         },
         {
-          "ap2Name": "value",
-          "ap1ID": "id-4372",
-          "ap2ID": "id-74599"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-4377",
           "ap2ID": "id-4366"
@@ -14603,6 +14568,44 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Label",
+      "x": 0.39616402116402116,
+      "y": 0.8022284122562675,
+      "uniqueID": "id-74602",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "Test",
+          "currentEquation": "Test"
+        },
+        {
+          "name": "startPosition",
+          "ioValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "endPosition",
+          "ioValue": [
+            300,
+            300,
+            0
+          ]
+        },
+        {
+          "name": "color",
+          "ioValue": "#3F3CDD",
+          "currentEquation": "#3F3CDD"
+        }
+      ]
     }
   ],
   "allConnectors": [

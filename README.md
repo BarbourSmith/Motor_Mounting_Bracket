@@ -6,15 +6,5 @@
 
 
 
- ### Motor Version
-
-This is a gear for steering
-
-Readme text here 
-
-![readme](/readmeid-74599.svg?v=c3kdo8)
-
-
-
-
+ 
 
