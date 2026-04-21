@@ -14568,44 +14568,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Label",
-      "x": 0.39616402116402116,
-      "y": 0.8022284122562675,
-      "uniqueID": "id-74602",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "text",
-          "ioValue": "Test",
-          "currentEquation": "Test"
-        },
-        {
-          "name": "startPosition",
-          "ioValue": [
-            0,
-            0,
-            0
-          ]
-        },
-        {
-          "name": "endPosition",
-          "ioValue": [
-            300,
-            300,
-            0
-          ]
-        },
-        {
-          "name": "color",
-          "ioValue": "#3F3CDD",
-          "currentEquation": "#3F3CDD"
-        }
-      ]
     }
   ],
   "allConnectors": [
