@@ -69,7 +69,7 @@
     {
       "atomType": "ExtractTag",
       "x": 0.8267195767195767,
-      "y": 0.7333333333333334,
+      "y": 0.7298050139275767,
       "uniqueID": "id-915",
       "name": "Extract Tag",
       "ioValues": [
@@ -78,7 +78,7 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "tag": "Plastic",
+      "tag": "Not Keep Out",
       "tagIndex": 0
     },
     {
@@ -5672,7 +5672,7 @@
     {
       "atomType": "Molecule",
       "x": 0.5152116402116402,
-      "y": 0.7075208913649026,
+      "y": 0.7019498607242339,
       "uniqueID": "id-2570",
       "name": "Motor Version",
       "ioValues": [
@@ -5711,7 +5711,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 65
+              "ioValue": 50,
+              "currentEquation": "50"
             }
           ]
         },
@@ -5946,8 +5947,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.8683862433862434,
-          "y": 0.8444444444444446,
+          "x": 0.873015873015873,
+          "y": 0.8440111420612814,
           "uniqueID": "id-4439",
           "name": "Cross-Section",
           "ioValues": [
@@ -16034,8 +16035,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 72,
-              "currentEquation": "72"
+              "ioValue": 71.75
             },
             {
               "name": "zDist",
