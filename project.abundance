@@ -9551,8 +9551,8 @@
             },
             {
               "atomType": "Export",
-              "x": 0.876984126984127,
-              "y": 0.8356545961002785,
+              "x": 0.8816137566137565,
+              "y": 0.8495821727019498,
               "uniqueID": "id-72828",
               "ioValues": [
                 {
@@ -9570,14 +9570,14 @@
                 },
                 {
                   "name": "Part Name",
-                  "ioValue": "Motor Part",
-                  "currentEquation": "Motor Part"
+                  "ioValue": "Servo Gear",
+                  "currentEquation": "Servo Gear"
                 }
               ],
               "type": null,
               "resolution": 96,
               "importIndex": 0,
-              "partName": "Motor Part"
+              "partName": "Servo Gear"
             },
             {
               "atomType": "Molecule",
