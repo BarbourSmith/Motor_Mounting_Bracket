@@ -6216,22 +6216,6 @@
               ]
             },
             {
-              "atomType": "Extrude",
-              "x": 0.1574074074074074,
-              "y": 0.233983286908078,
-              "uniqueID": "id-4362",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 20
-                }
-              ]
-            },
-            {
               "atomType": "Tag",
               "x": 0.5714285714285714,
               "y": 0.4305555555555555,
@@ -6385,7 +6369,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "22b4afa8-20-10-20-20-0",
+                    "geometry": "22b4afa8-30-10-20-20-0",
                     "dimension": "3D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -6441,8 +6425,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.17394179894179893,
-              "y": 0.5444444444444444,
+              "x": 0.1593915343915344,
+              "y": 0.6044568245125348,
               "uniqueID": "id-19193",
               "ioValues": [
                 {
@@ -6495,8 +6479,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.06018518518518518,
-              "y": 0.2,
+              "x": 0.5667989417989419,
+              "y": 0.18384401114206128,
               "uniqueID": "id-4345",
               "name": "2D-Rounded-Gear",
               "ioValues": [
@@ -6607,8 +6591,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.06878306878306878,
-              "y": 0.48611111111111116,
+              "x": 0.06349206349206349,
+              "y": 0.7075208913649026,
               "uniqueID": "id-17359",
               "name": "Wedge",
               "topLevel": false,
@@ -9171,18 +9155,20 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.082010582010582,
-              "y": 0.3259052924791086,
+              "x": 0.07407407407407407,
+              "y": 0.25348189415041783,
               "uniqueID": "id-74684",
               "name": "Involute_Gear",
               "ioValues": [
                 {
                   "name": "Number_of_Teeth",
-                  "ioValue": 20
+                  "ioValue": 30,
+                  "currentEquation": "30"
                 },
                 {
                   "name": "Pitch",
-                  "ioValue": 10
+                  "ioValue": 10,
+                  "currentEquation": "10"
                 },
                 {
                   "name": "Thickness",
@@ -9217,7 +9203,7 @@
                   "ioValues": [
                     {
                       "name": "N",
-                      "ioValue": 20
+                      "ioValue": 30
                     },
                     {
                       "name": "p",
@@ -9262,7 +9248,7 @@
                   "ioValues": [
                     {
                       "name": "teeth",
-                      "ioValue": 20
+                      "ioValue": 30
                     },
                     {
                       "name": "pitch",
@@ -9394,11 +9380,6 @@
               "ap2Name": "Shape 1",
               "ap1ID": "id-19193",
               "ap2ID": "id-19188"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-4345",
-              "ap2ID": "id-4362"
             },
             {
               "ap2Name": "geometry",
@@ -10373,7 +10354,7 @@
                   "ioValues": [
                     {
                       "name": "Number_of_Teeth",
-                      "ioValue": 12
+                      "ioValue": 15
                     },
                     {
                       "name": "Pitch",
@@ -10411,7 +10392,7 @@
                       "ioValues": [
                         {
                           "name": "N",
-                          "ioValue": 12
+                          "ioValue": 15
                         },
                         {
                           "name": "p",
@@ -10456,7 +10437,7 @@
                       "ioValues": [
                         {
                           "name": "teeth",
-                          "ioValue": 12
+                          "ioValue": 15
                         },
                         {
                           "name": "pitch",
@@ -15334,14 +15315,187 @@
             },
             {
               "name": "yDist",
-              "ioValue": 50,
-              "currentEquation": "50"
+              "ioValue": 72,
+              "currentEquation": "72"
             },
             {
               "name": "zDist",
               "ioValue": 205
             }
           ]
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.6071428571428572,
+          "y": 0.532033426183844,
+          "uniqueID": "id-74752",
+          "name": "Involute_Gear",
+          "ioValues": [
+            {
+              "name": "Number_of_Teeth",
+              "ioValue": 22
+            },
+            {
+              "name": "Pitch",
+              "ioValue": 5
+            },
+            {
+              "name": "Thickness",
+              "ioValue": 5
+            },
+            {
+              "name": "Pressure_Angle",
+              "ioValue": 20
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-74745",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.25678119349005424,
+              "y": 0.7465181058495821,
+              "uniqueID": "id-74746",
+              "name": "N * p / pi",
+              "ioValues": [
+                {
+                  "name": "N",
+                  "ioValue": 22
+                },
+                {
+                  "name": "p",
+                  "ioValue": 20
+                }
+              ],
+              "currentEquation": "N * p / pi"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-74747",
+              "name": "Number_of_Teeth"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-74748",
+              "name": "Pitch"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
+              "uniqueID": "id-74749",
+              "name": "Thickness"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.4307692307692308,
+              "uniqueID": "id-74750",
+              "name": "Pressure_Angle"
+            },
+            {
+              "atomType": "Code",
+              "x": 0.3562386980108499,
+              "y": 0.3259052924791086,
+              "uniqueID": "id-74751",
+              "ioValues": [
+                {
+                  "name": "teeth",
+                  "ioValue": 22
+                },
+                {
+                  "name": "pitch",
+                  "ioValue": 5
+                },
+                {
+                  "name": "thickness",
+                  "ioValue": 5
+                },
+                {
+                  "name": "pressureAngle",
+                  "ioValue": 20
+                }
+              ],
+              "codeVersion": 1,
+              "code": "const Inputs = [\n  { inputName: \"teeth\", type: \"number\", defaultValue: 20 },\n  { inputName: \"pitch\", type: \"number\", defaultValue: 5 },\n  { inputName: \"thickness\", type: \"number\", defaultValue: 5 },\n  { inputName: \"pressureAngle\", type: \"number\", defaultValue: 20 },\n];\n\nconst N = Math.max(3, Math.round(teeth));\nconst p = pitch;\nconst m = p / Math.PI;                                 // module\nconst alpha = (pressureAngle * Math.PI) / 180;         // pressure angle (rad)\nconst pitchR = (N * p) / (2 * Math.PI);                // pitch radius\nconst addR  = pitchR + m;                              // addendum (tip) radius\nconst rootR = Math.max(0.1, pitchR - 1.25 * m);        // dedendum (root) radius\nconst baseR = pitchR * Math.cos(alpha);                // base circle radius\n\nconst inv = (a) => Math.tan(a) - a;                    // involute function\nconst invAtPitch  = inv(alpha);\nconst halfToothPitch = Math.PI / (2 * N);              // half tooth angle at pitch circle\n\nconst tMax = Math.acos(Math.min(1, baseR / addR));     // param at tip\nconst tMin = rootR > baseR ? Math.acos(Math.min(1, baseR / rootR)) : 0;\n\nconst steps = 16;\nconst toothAngle = (2 * Math.PI) / N;\nconst pts = [];\n\nfor (let i = 0; i < N; i++) {\n  const c = i * toothAngle;\n  const leftStart  = c - halfToothPitch - invAtPitch;  // involute origin on base circle (left flank)\n  const rightStart = c + halfToothPitch + invAtPitch;  // involute origin on base circle (right flank)\n\n  // Radial line down to root circle if root is below base\n  if (rootR < baseR) {\n    pts.push([rootR * Math.cos(leftStart), rootR * Math.sin(leftStart)]);\n  }\n  // Left flank: involute from base (or root) up to tip\n  for (let s = 0; s <= steps; s++) {\n    const t = tMin + (tMax - tMin) * (s / steps);\n    const r = baseR / Math.cos(t);\n    const ang = leftStart + inv(t);\n    pts.push([r * Math.cos(ang), r * Math.sin(ang)]);\n  }\n  // Right flank: mirrored involute from tip back down\n  for (let s = 0; s <= steps; s++) {\n    const t = tMax - (tMax - tMin) * (s / steps);\n    const r = baseR / Math.cos(t);\n    const ang = rightStart - inv(t);\n    pts.push([r * Math.cos(ang), r * Math.sin(ang)]);\n  }\n  if (rootR < baseR) {\n    pts.push([rootR * Math.cos(rightStart), rootR * Math.sin(rightStart)]);\n  }\n}\n\nlet pen = replicad.draw(pts[0]);\nfor (let i = 1; i < pts.length; i++) pen = pen.lineTo(pts[i]);\nconst drawing = pen.close();\n\nconst solid = drawing.sketchOnPlane().extrude(thickness);\nreturn { geometry: [solid], dimension: \"3D\", tags: [], color: \"#aad7f2\", plane: null, bom: [] };"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "N",
+              "ap1ID": "id-74747",
+              "ap2ID": "id-74746"
+            },
+            {
+              "ap2Name": "teeth",
+              "ap1ID": "id-74747",
+              "ap2ID": "id-74751"
+            },
+            {
+              "ap2Name": "pitch",
+              "ap1ID": "id-74748",
+              "ap2ID": "id-74751"
+            },
+            {
+              "ap2Name": "thickness",
+              "ap1ID": "id-74749",
+              "ap2ID": "id-74751"
+            },
+            {
+              "ap2Name": "p",
+              "ap1ID": "id-74750",
+              "ap2ID": "id-74746"
+            },
+            {
+              "ap2Name": "pressureAngle",
+              "ap1ID": "id-74750",
+              "ap2ID": "id-74751"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-74751",
+              "ap2ID": "id-74745"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-04-24T18:23:39.107Z",
+            "privateRepo": false,
+            "repoName": "Involute_Gear",
+            "dateCreated": "2026-04-21T21:23:02Z",
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/Involute_Gear/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-709",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/Involute_Gear",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739730",
+            "ranking": 0,
+            "searchField": "involute_gear barboursmith generates an involute gear given the number of teeth, tooth ptich, thickness and the pressure angle ",
+            "owner": "BarbourSmith",
+            "description": "Generates an involute gear given the number of teeth, tooth ptich, thickness and the pressure angle",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Involute_Gear/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Involute_Gear/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
