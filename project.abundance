@@ -44,8 +44,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.125,
-      "y": 0.6527777777777778,
+      "x": 0.12433862433862435,
+      "y": 0.6601671309192201,
       "uniqueID": "id-234",
       "ioValues": [
         {
@@ -5749,8 +5749,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.2037037037037037,
-          "y": 0.807799442896936,
+          "x": 0.20634920634920637,
+          "y": 0.8217270194986073,
           "uniqueID": "id-2591",
           "ioValues": [
             {
@@ -5759,7 +5759,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 50
+              "ioValue": 60,
+              "currentEquation": "60"
             },
             {
               "name": "yDist",
@@ -5834,8 +5835,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5985449735449735,
-          "y": 0.8111111111111111,
+          "x": 0.5992063492063492,
+          "y": 0.8105849582172702,
           "uniqueID": "id-4366",
           "ioValues": [
             {
@@ -5844,7 +5845,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 50
+              "ioValue": 60,
+              "currentEquation": "60"
             },
             {
               "name": "yDist",
@@ -5951,7 +5953,8 @@
           "ioValues": [
             {
               "name": "Offset",
-              "ioValue": 47
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "Angle X",
@@ -5959,7 +5962,8 @@
             },
             {
               "name": "Angle Z",
-              "ioValue": 0
+              "ioValue": 90,
+              "currentEquation": "90"
             },
             {
               "name": "Angle Y",
@@ -6072,7 +6076,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 47
+                  "ioValue": 0
                 }
               ]
             },
@@ -6096,7 +6100,7 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 90
                 }
               ]
             },
@@ -16025,7 +16029,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 50
+              "ioValue": 60,
+              "currentEquation": "60"
             },
             {
               "name": "yDist",
