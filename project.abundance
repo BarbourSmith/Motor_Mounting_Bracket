@@ -174,7 +174,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 33
+              "ioValue": 36
             }
           ]
         },
@@ -445,19 +445,7 @@
                   ]
                 },
                 "color": "#aad7f2",
-                "bom": [],
-                "boundingBox": {
-                  "min": [
-                    10.999999,
-                    -50.000001,
-                    0
-                  ],
-                  "max": [
-                    111.000001,
-                    50.000001,
-                    0
-                  ]
-                }
+                "bom": []
               }
             },
             {
@@ -484,19 +472,7 @@
                 },
                 "color": "#aad7f2",
                 "tags": [],
-                "bom": [],
-                "boundingBox": {
-                  "min": [
-                    0.999999,
-                    -50.000001,
-                    0
-                  ],
-                  "max": [
-                    11.000001,
-                    50.000001,
-                    0
-                  ]
-                }
+                "bom": []
               }
             },
             {
@@ -597,19 +573,7 @@
                 },
                 "bom": [
                   []
-                ],
-                "boundingBox": {
-                  "min": [
-                    -101.000001,
-                    -50.000001,
-                    0
-                  ],
-                  "max": [
-                    9.000001,
-                    50.000001,
-                    0
-                  ]
-                }
+                ]
               }
             },
             {
@@ -638,19 +602,7 @@
                 },
                 "bom": [
                   []
-                ],
-                "boundingBox": {
-                  "min": [
-                    0.999999,
-                    -50.000001,
-                    0
-                  ],
-                  "max": [
-                    111.000001,
-                    50.000001,
-                    0
-                  ]
-                }
+                ]
               }
             },
             {
@@ -1526,19 +1478,7 @@
                           ]
                         },
                         "color": "#aad7f2",
-                        "bom": [],
-                        "boundingBox": {
-                          "min": [
-                            -1.6500009999999996,
-                            -1.6500009999999996,
-                            0
-                          ],
-                          "max": [
-                            1.6500009999999996,
-                            1.6500009999999996,
-                            0
-                          ]
-                        }
+                        "bom": []
                       }
                     },
                     {
@@ -1950,19 +1890,7 @@
                           ]
                         },
                         "color": "#aad7f2",
-                        "bom": [],
-                        "boundingBox": {
-                          "min": [
-                            -0.0000010000049999999999,
-                            9.099998999995,
-                            0
-                          ],
-                          "max": [
-                            0.0000010000049999999999,
-                            9.100001000005,
-                            0
-                          ]
-                        }
+                        "bom": []
                       }
                     },
                     {
@@ -2163,7 +2091,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 30
+              "ioValue": 35
             }
           ]
         },
@@ -2227,8 +2155,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.26719576719576715,
-          "y": 0.275,
+          "x": 0.07671957671957672,
+          "y": 0.3955431754874652,
           "uniqueID": "id-42404",
           "name": "30mm_Bearing",
           "topLevel": false,
@@ -2484,6 +2412,266 @@
           },
           "unitsKey": "MM",
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.1832010582010582,
+          "y": 0.2841225626740947,
+          "uniqueID": "id-74612",
+          "name": "35mm_bearing",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-74602",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.34034391534391534,
+              "y": 0.5999999999999999,
+              "uniqueID": "id-74603",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 7
+                }
+              ]
+            },
+            {
+              "atomType": "Add-BOM-Tag",
+              "x": 0.5410052910052909,
+              "y": 0.42061281337047357,
+              "uniqueID": "id-74604",
+              "name": "Add BOM Tag",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Item Name",
+                  "ioValue": "35mm Bearing",
+                  "currentEquation": "35mm Bearing"
+                },
+                {
+                  "name": "Number Needed",
+                  "ioValue": 1
+                },
+                {
+                  "name": "Cost (USD)",
+                  "ioValue": 3.39
+                },
+                {
+                  "name": "Source Link",
+                  "ioValue": "https://amzn.to/4n8PNkd",
+                  "currentEquation": "https://amzn.to/4n8PNkd"
+                }
+              ],
+              "BOMitem": {
+                "BOMitemName": "35mm Bearing",
+                "numberNeeded": 1,
+                "costUSD": 3.39,
+                "source": "https://amzn.to/4n8PNkd"
+              }
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.25767195767195766,
+              "y": 0.417966573816156,
+              "uniqueID": "id-74605",
+              "name": "Concentric_Circles",
+              "ioValues": [
+                {
+                  "name": "OD",
+                  "ioValue": 47
+                },
+                {
+                  "name": "ID",
+                  "ioValue": 35
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-74606",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
+                  "uniqueID": "id-74607",
+                  "name": "OD",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
+                  "uniqueID": "id-74608",
+                  "name": "ID",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.460559796437659,
+                  "y": 0.42567567567567566,
+                  "uniqueID": "id-74609",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 47
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.44529262086514,
+                  "y": 0.7263513513513513,
+                  "uniqueID": "id-74610",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 35
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Difference",
+                  "x": 0.6615776081424937,
+                  "y": 0.5506756756756757,
+                  "uniqueID": "id-74611",
+                  "ioValues": [
+                    {
+                      "name": "geometry1",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "geometry2",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "diameter",
+                  "ap1ID": "id-74607",
+                  "ap2ID": "id-74609"
+                },
+                {
+                  "ap2Name": "diameter",
+                  "ap1ID": "id-74608",
+                  "ap2ID": "id-74610"
+                },
+                {
+                  "ap2Name": "geometry1",
+                  "ap1ID": "id-74609",
+                  "ap2ID": "id-74611"
+                },
+                {
+                  "ap2Name": "geometry2",
+                  "ap1ID": "id-74610",
+                  "ap2ID": "id-74611"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-74611",
+                  "ap2ID": "id-74606"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2026-03-02T18:23:39.282Z",
+                "privateRepo": false,
+                "repoName": "Concentric_Circles",
+                "dateCreated": "2025-11-08T04:08:14Z",
+                "likes": 0,
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "id-1170",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Concentric_Circles",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739563",
+                "ranking": 5.4,
+                "searchField": "concentric_circles barboursmith creates two concentric circles. the result is 2d ",
+                "owner": "BarbourSmith",
+                "description": "Creates two concentric circles. The result is 2D",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-74603",
+              "ap2ID": "id-74604"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-74604",
+              "ap2ID": "id-74602"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-74605",
+              "ap2ID": "id-74603"
+            }
+          ],
+          "parentRepo": {
+            "privateRepo": false,
+            "repoName": "35mm_bearing",
+            "dateCreated": "2026-04-24T18:36:21Z",
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/35mm_bearing/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-40253",
+            "githubMoleculesUsed": [
+              {
+                "owner": "BarbourSmith",
+                "repoName": "Concentric_Circles"
+              }
+            ],
+            "html_url": "https://github.com/BarbourSmith/35mm_bearing",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739730",
+            "ranking": 0,
+            "searchField": "35mm_bearing barboursmith a 35mm id bearing with an od of 47 and a thickness of 7 ",
+            "owner": "BarbourSmith",
+            "description": "A 35mm ID bearing with an OD of 47 and a thickness of 7",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/35mm_bearing/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/35mm_bearing/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
@@ -2514,7 +2702,7 @@
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-42404",
+          "ap1ID": "id-74612",
           "ap2ID": "id-42445"
         }
       ],
@@ -2761,19 +2949,7 @@
                 },
                 "color": "#aad7f2",
                 "tags": [],
-                "bom": [],
-                "boundingBox": {
-                  "min": [
-                    -250.0000001,
-                    -250.0000001,
-                    -13.0000001
-                  ],
-                  "max": [
-                    250.0000001,
-                    250.0000001,
-                    33.0000001
-                  ]
-                }
+                "bom": []
               }
             },
             {
@@ -2800,19 +2976,7 @@
                   ]
                 },
                 "color": "#aad7f2",
-                "dimension": "3D",
-                "boundingBox": {
-                  "min": [
-                    9.19999990000001,
-                    -100.0000001,
-                    -30.80000009999999
-                  ],
-                  "max": [
-                    110.80000009999998,
-                    100.0000001,
-                    120.0000001
-                  ]
-                }
+                "dimension": "3D"
               }
             }
           ],
@@ -2997,19 +3161,7 @@
                       ]
                     },
                     "color": "#aad7f2",
-                    "bom": [],
-                    "boundingBox": {
-                      "min": [
-                        -35.0000001,
-                        -35.0000001,
-                        -1e-7
-                      ],
-                      "max": [
-                        35.0000001,
-                        35.0000001,
-                        100.0000001
-                      ]
-                    }
+                    "bom": []
                   }
                 },
                 {
@@ -3036,19 +3188,7 @@
                       ]
                     },
                     "color": "#aad7f2",
-                    "bom": [],
-                    "boundingBox": {
-                      "min": [
-                        -50.80000009999999,
-                        -100.0000001,
-                        -50.80000009999999
-                      ],
-                      "max": [
-                        50.80000009999999,
-                        100.0000001,
-                        50.80000010000002
-                      ]
-                    }
+                    "bom": []
                   }
                 }
               ],
@@ -3238,19 +3378,7 @@
                     },
                     "color": "#aad7f2",
                     "tags": [],
-                    "bom": [],
-                    "boundingBox": {
-                      "min": [
-                        -53.5000001,
-                        -10.5000001,
-                        -1e-7
-                      ],
-                      "max": [
-                        53.5000001,
-                        10.5000001,
-                        50.0000001
-                      ]
-                    }
+                    "bom": []
                   }
                 },
                 {
@@ -3277,19 +3405,7 @@
                       ]
                     },
                     "color": "#aad7f2",
-                    "bom": [],
-                    "boundingBox": {
-                      "min": [
-                        19.9999999,
-                        -17.5000001,
-                        -1e-7
-                      ],
-                      "max": [
-                        55.0000001,
-                        17.5000001,
-                        50.0000001
-                      ]
-                    }
+                    "bom": []
                   }
                 },
                 {
@@ -3316,19 +3432,7 @@
                       ]
                     },
                     "color": "#aad7f2",
-                    "bom": [],
-                    "boundingBox": {
-                      "min": [
-                        -55.0000001,
-                        -17.5000001,
-                        -1e-7
-                      ],
-                      "max": [
-                        -19.9999999,
-                        17.5000001,
-                        50.0000001
-                      ]
-                    }
+                    "bom": []
                   }
                 }
               ],
@@ -3876,19 +3980,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -137.5000001,
-                                -42.5000001,
-                                -1.00000002985077e-7
-                              ],
-                              "max": [
-                                -94.99999989999985,
-                                42.5000001,
-                                10.000000100000003
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -3915,19 +4007,7 @@
                             },
                             "color": "#aad7f2",
                             "tags": [],
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -95.0000001,
-                                -42.5000001,
-                                -1e-7
-                              ],
-                              "max": [
-                                1e-7,
-                                -32.4999999,
-                                10.0000001
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -3954,19 +4034,7 @@
                             },
                             "color": "#aad7f2",
                             "tags": [],
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -95.0000001,
-                                32.4999999,
-                                -1e-7
-                              ],
-                              "max": [
-                                1e-7,
-                                42.5000001,
-                                10.0000001
-                              ]
-                            }
+                            "bom": []
                           }
                         }
                       ],
@@ -4513,19 +4581,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -52.000001,
-                                -10.000001,
-                                0
-                              ],
-                              "max": [
-                                -31.999999,
-                                10.000001,
-                                0
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -4552,19 +4608,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                31.999999,
-                                -10.000001,
-                                0
-                              ],
-                              "max": [
-                                52.000001,
-                                10.000001,
-                                0
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -4689,19 +4733,7 @@
                               [],
                               [],
                               []
-                            ],
-                            "boundingBox": {
-                              "min": [
-                                30.499999,
-                                -5.998920673877152,
-                                0
-                              ],
-                              "max": [
-                                46.500001,
-                                5.998920673877152,
-                                0
-                              ]
-                            }
+                            ]
                           }
                         },
                         {
@@ -4732,19 +4764,7 @@
                               [],
                               [],
                               []
-                            ],
-                            "boundingBox": {
-                              "min": [
-                                -46.500001,
-                                -5.998920673877152,
-                                0
-                              ],
-                              "max": [
-                                -30.499999,
-                                5.998920673877152,
-                                0
-                              ]
-                            }
+                            ]
                           }
                         }
                       ],
@@ -5101,19 +5121,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -8.000001,
-                                    -6.000001,
-                                    0
-                                  ],
-                                  "max": [
-                                    2.000001,
-                                    4.000001,
-                                    0
-                                  ]
-                                }
+                                "bom": []
                               }
                             },
                             {
@@ -5140,19 +5148,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -8.000001,
-                                    -4.000001,
-                                    0
-                                  ],
-                                  "max": [
-                                    2.000001,
-                                    6.000001,
-                                    0
-                                  ]
-                                }
+                                "bom": []
                               }
                             },
                             {
@@ -5179,19 +5175,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -2.000001,
-                                    -6.000001,
-                                    0
-                                  ],
-                                  "max": [
-                                    8.000001,
-                                    4.000001,
-                                    0
-                                  ]
-                                }
+                                "bom": []
                               }
                             },
                             {
@@ -5218,19 +5202,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -2.000001,
-                                    -4.000001,
-                                    0
-                                  ],
-                                  "max": [
-                                    8.000001,
-                                    6.000001,
-                                    0
-                                  ]
-                                }
+                                "bom": []
                               }
                             },
                             {
@@ -6245,8 +6217,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.15079365079365079,
-              "y": 0.2638888888888889,
+              "x": 0.1574074074074074,
+              "y": 0.233983286908078,
               "uniqueID": "id-4362",
               "ioValues": [
                 {
@@ -6332,8 +6304,8 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.1164021164021164,
-              "y": 0.8194444444444444,
+              "x": 0.07208994708994709,
+              "y": 0.8495821727019498,
               "uniqueID": "id-17331",
               "ioValues": [
                 {
@@ -6344,8 +6316,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.24603174603174605,
-              "y": 0.7111111111111111,
+              "x": 0.208994708994709,
+              "y": 0.8802228412256267,
               "uniqueID": "id-17334",
               "ioValues": [
                 {
@@ -6354,14 +6326,15 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 50
+                  "ioValue": 60,
+                  "currentEquation": "60"
                 }
               ]
             },
             {
               "atomType": "Difference",
-              "x": 0.33994708994708994,
-              "y": 0.44166666666666665,
+              "x": 0.4074074074074074,
+              "y": 0.42618384401114207,
               "uniqueID": "id-17338",
               "ioValues": [
                 {
@@ -6376,14 +6349,14 @@
             },
             {
               "atomType": "Fusion",
-              "x": 0.2294973544973545,
-              "y": 0.33611111111111114,
+              "x": 0.23412698412698413,
+              "y": 0.34540389972144847,
               "uniqueID": "id-19188",
               "ioValues": [
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-cut-cut-cut-loft-move-circle-16-0-0-0-circle-20-{\"origin\":[0,0,25],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-fbe4f1dc-{\"geometry\":\"extrude-move-rectangle-50-2-25-0-0-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-50\",\"dimension\":\"3D\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[],\"boundingBox\":{\"min\":[-1e-7,-1.0000001,-1e-7],\"max\":[50.0000001,1.0000001,50.0000001]}}-3-120-6-fbe4f1dc-{\"geometry\":\"extrude-move-rectangle-50-2-25-0-0-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-50\",\"dimension\":\"3D\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[],\"boundingBox\":{\"min\":[-1e-7,-1.0000001,-1e-7],\"max\":[50.0000001,1.0000001,50.0000001]}}-3-120-7-fbe4f1dc-{\"geometry\":\"extrude-move-rectangle-50-2-25-0-0-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-50\",\"dimension\":\"3D\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[],\"boundingBox\":{\"min\":[-1e-7,-1.0000001,-1e-7],\"max\":[50.0000001,1.0000001,50.0000001]}}-3-120-8-0-0-20",
+                    "geometry": "move-cut-cut-cut-loft-move-circle-16-0-0-0-circle-20-{\"origin\":[0,0,25],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-fbe4f1dc-{\"geometry\":\"extrude-move-rectangle-50-2-25-0-0-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-50\",\"dimension\":\"3D\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-3-120-6-fbe4f1dc-{\"geometry\":\"extrude-move-rectangle-50-2-25-0-0-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-50\",\"dimension\":\"3D\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-3-120-7-fbe4f1dc-{\"geometry\":\"extrude-move-rectangle-50-2-25-0-0-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-50\",\"dimension\":\"3D\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-3-120-8-0-0-20",
                     "dimension": "3D",
                     "tags": [
                       "Shaft Gear Plastic"
@@ -6406,29 +6379,16 @@
                       ]
                     },
                     "color": "#aad7f2",
-                    "bom": [],
-                    "boundingBox": {
-                      "min": [
-                        -20.000000150000005,
-                        -20.00000015,
-                        19.999999849999572
-                      ],
-                      "max": [
-                        19.97498450543825,
-                        20.00000015,
-                        45.0000001500003
-                      ]
-                    }
+                    "bom": []
                   }
                 },
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "extrude-f488db5c-11-9.2-10-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20",
-                    "tags": [
-                      "aTag"
-                    ],
-                    "color": "#A3CE5B",
+                    "geometry": "22b4afa8-19-11-20-20-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "color": "#aad7f2",
                     "plane": {
                       "origin": [
                         0,
@@ -6446,20 +6406,34 @@
                         1
                       ]
                     },
-                    "bom": [],
+                    "bom": []
+                  }
+                },
+                {
+                  "name": "Shape 3",
+                  "ioValue": {
+                    "geometry": "loft-move-circle-17-0-0-0-circle-17.75-{\"origin\":[0,0,-8],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
                     "dimension": "3D",
-                    "boundingBox": {
-                      "min": [
-                        -35.61340483121422,
-                        -36.593702850157975,
-                        -1e-7
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
                       ],
-                      "max": [
-                        36.92270134332844,
-                        36.593702850157975,
-                        20.0000001
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
                       ]
-                    }
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
                   }
                 }
               ],
@@ -6729,19 +6703,7 @@
                           ]
                         },
                         "color": "#aad7f2",
-                        "bom": [],
-                        "boundingBox": {
-                          "min": [
-                            -16.000001,
-                            -16.000001,
-                            0
-                          ],
-                          "max": [
-                            16.000001,
-                            16.000001,
-                            0
-                          ]
-                        }
+                        "bom": []
                       }
                     },
                     {
@@ -7144,8 +7106,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.4305555555555555,
-                  "y": 0.6611111111111111,
+                  "x": 0.5046296296296297,
+                  "y": 0.4818941504178273,
                   "uniqueID": "id-13678",
                   "ioValues": [
                     {
@@ -7168,8 +7130,8 @@
                 },
                 {
                   "atomType": "Molecule",
-                  "x": 0.25,
-                  "y": 0.713091922005571,
+                  "x": 0.24537037037037038,
+                  "y": 0.49303621169916434,
                   "uniqueID": "id-11900",
                   "name": "Outer",
                   "topLevel": false,
@@ -7276,19 +7238,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -15.250001,
-                                -15.250001,
-                                0
-                              ],
-                              "max": [
-                                15.250001,
-                                15.250001,
-                                0
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -7486,19 +7436,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -20.5000001,
-                                -20.5000001,
-                                -1e-7
-                              ],
-                              "max": [
-                                20.5000001,
-                                20.5000001,
-                                12.0000001
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -8194,19 +8132,7 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": [],
-                                    "boundingBox": {
-                                      "min": [
-                                        -1.7500001,
-                                        -1.7500001,
-                                        -32.0000001
-                                      ],
-                                      "max": [
-                                        1.7500001,
-                                        1.7500001,
-                                        1e-7
-                                      ]
-                                    }
+                                    "bom": []
                                   }
                                 },
                                 {
@@ -8233,19 +8159,7 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": [],
-                                    "boundingBox": {
-                                      "min": [
-                                        -3.0000001,
-                                        -3.0000001,
-                                        -1e-7
-                                      ],
-                                      "max": [
-                                        3.0000001,
-                                        3.0000001,
-                                        2.2000001
-                                      ]
-                                    }
+                                    "bom": []
                                   }
                                 }
                               ],
@@ -9054,14 +8968,383 @@
                 }
               ],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.20304232804232802,
+              "y": 0.6963788300835655,
+              "uniqueID": "id-74644",
+              "name": "Bearing Rider",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-74646",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.17394179894179893,
+                  "y": 0.5487465181058496,
+                  "uniqueID": "id-74648",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 35.5,
+                      "currentEquation": "35.5"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.26256613756613756,
+                  "y": 0.7075208913649026,
+                  "uniqueID": "id-74651",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 34,
+                      "currentEquation": "34"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.36256613756613754,
+                  "y": 0.7075208913649026,
+                  "uniqueID": "id-74654",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": -8,
+                      "currentEquation": "-8"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Loft",
+                  "x": 0.44378306878306883,
+                  "y": 0.4345403899721449,
+                  "uniqueID": "id-74660",
+                  "ioValues": [
+                    {
+                      "name": "Shape 1",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape 2",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape 3",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape 1",
+                      "ioValue": {
+                        "geometry": "move-circle-17-0-0-0",
+                        "dimension": "2D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            -8
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                      }
+                    },
+                    {
+                      "name": "Shape 2",
+                      "ioValue": {
+                        "geometry": "circle-17.75",
+                        "dimension": "2D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                      }
+                    },
+                    {
+                      "name": "Shape 3",
+                      "ioValue": null
+                    }
+                  ],
+                  "closedSelection": 0
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "Shape 2",
+                  "ap1ID": "id-74648",
+                  "ap2ID": "id-74660"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-74651",
+                  "ap2ID": "id-74654"
+                },
+                {
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-74654",
+                  "ap2ID": "id-74660"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-74660",
+                  "ap2ID": "id-74646"
+                }
+              ],
+              "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Move",
+              "x": 0.3181216931216931,
+              "y": 0.8328690807799443,
+              "uniqueID": "id-74666",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -10,
+                  "currentEquation": "-10"
+                }
+              ]
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.082010582010582,
+              "y": 0.3259052924791086,
+              "uniqueID": "id-74684",
+              "name": "Involute_Gear",
+              "ioValues": [
+                {
+                  "name": "Number_of_Teeth",
+                  "ioValue": 19
+                },
+                {
+                  "name": "Pitch",
+                  "ioValue": 11
+                },
+                {
+                  "name": "Thickness",
+                  "ioValue": 20,
+                  "currentEquation": "20"
+                },
+                {
+                  "name": "Pressure_Angle",
+                  "ioValue": 20
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-74677",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Equation",
+                  "x": 0.25678119349005424,
+                  "y": 0.7465181058495821,
+                  "uniqueID": "id-74678",
+                  "name": "N * p / pi",
+                  "ioValues": [
+                    {
+                      "name": "N",
+                      "ioValue": 19
+                    },
+                    {
+                      "name": "p",
+                      "ioValue": 20
+                    }
+                  ],
+                  "currentEquation": "N * p / pi"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
+                  "uniqueID": "id-74679",
+                  "name": "Number_of_Teeth"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
+                  "uniqueID": "id-74680",
+                  "name": "Pitch"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.3384615384615385,
+                  "uniqueID": "id-74681",
+                  "name": "Thickness"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.4307692307692308,
+                  "uniqueID": "id-74682",
+                  "name": "Pressure_Angle"
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.3562386980108499,
+                  "y": 0.3259052924791086,
+                  "uniqueID": "id-74683",
+                  "ioValues": [
+                    {
+                      "name": "teeth",
+                      "ioValue": 19
+                    },
+                    {
+                      "name": "pitch",
+                      "ioValue": 11
+                    },
+                    {
+                      "name": "thickness",
+                      "ioValue": 20
+                    },
+                    {
+                      "name": "pressureAngle",
+                      "ioValue": 20
+                    }
+                  ],
+                  "codeVersion": 1,
+                  "code": "const Inputs = [\n  { inputName: \"teeth\", type: \"number\", defaultValue: 20 },\n  { inputName: \"pitch\", type: \"number\", defaultValue: 5 },\n  { inputName: \"thickness\", type: \"number\", defaultValue: 5 },\n  { inputName: \"pressureAngle\", type: \"number\", defaultValue: 20 },\n];\n\nconst N = Math.max(3, Math.round(teeth));\nconst p = pitch;\nconst m = p / Math.PI;                                 // module\nconst alpha = (pressureAngle * Math.PI) / 180;         // pressure angle (rad)\nconst pitchR = (N * p) / (2 * Math.PI);                // pitch radius\nconst addR  = pitchR + m;                              // addendum (tip) radius\nconst rootR = Math.max(0.1, pitchR - 1.25 * m);        // dedendum (root) radius\nconst baseR = pitchR * Math.cos(alpha);                // base circle radius\n\nconst inv = (a) => Math.tan(a) - a;                    // involute function\nconst invAtPitch  = inv(alpha);\nconst halfToothPitch = Math.PI / (2 * N);              // half tooth angle at pitch circle\n\nconst tMax = Math.acos(Math.min(1, baseR / addR));     // param at tip\nconst tMin = rootR > baseR ? Math.acos(Math.min(1, baseR / rootR)) : 0;\n\nconst steps = 16;\nconst toothAngle = (2 * Math.PI) / N;\nconst pts = [];\n\nfor (let i = 0; i < N; i++) {\n  const c = i * toothAngle;\n  const leftStart  = c - halfToothPitch - invAtPitch;  // involute origin on base circle (left flank)\n  const rightStart = c + halfToothPitch + invAtPitch;  // involute origin on base circle (right flank)\n\n  // Radial line down to root circle if root is below base\n  if (rootR < baseR) {\n    pts.push([rootR * Math.cos(leftStart), rootR * Math.sin(leftStart)]);\n  }\n  // Left flank: involute from base (or root) up to tip\n  for (let s = 0; s <= steps; s++) {\n    const t = tMin + (tMax - tMin) * (s / steps);\n    const r = baseR / Math.cos(t);\n    const ang = leftStart + inv(t);\n    pts.push([r * Math.cos(ang), r * Math.sin(ang)]);\n  }\n  // Right flank: mirrored involute from tip back down\n  for (let s = 0; s <= steps; s++) {\n    const t = tMax - (tMax - tMin) * (s / steps);\n    const r = baseR / Math.cos(t);\n    const ang = rightStart - inv(t);\n    pts.push([r * Math.cos(ang), r * Math.sin(ang)]);\n  }\n  if (rootR < baseR) {\n    pts.push([rootR * Math.cos(rightStart), rootR * Math.sin(rightStart)]);\n  }\n}\n\nlet pen = replicad.draw(pts[0]);\nfor (let i = 1; i < pts.length; i++) pen = pen.lineTo(pts[i]);\nconst drawing = pen.close();\n\nconst solid = drawing.sketchOnPlane().extrude(thickness);\nreturn { geometry: [solid], dimension: \"3D\", tags: [], color: \"#aad7f2\", plane: null, bom: [] };"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "N",
+                  "ap1ID": "id-74679",
+                  "ap2ID": "id-74678"
+                },
+                {
+                  "ap2Name": "teeth",
+                  "ap1ID": "id-74679",
+                  "ap2ID": "id-74683"
+                },
+                {
+                  "ap2Name": "pitch",
+                  "ap1ID": "id-74680",
+                  "ap2ID": "id-74683"
+                },
+                {
+                  "ap2Name": "thickness",
+                  "ap1ID": "id-74681",
+                  "ap2ID": "id-74683"
+                },
+                {
+                  "ap2Name": "p",
+                  "ap1ID": "id-74682",
+                  "ap2ID": "id-74678"
+                },
+                {
+                  "ap2Name": "pressureAngle",
+                  "ap1ID": "id-74682",
+                  "ap2ID": "id-74683"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-74683",
+                  "ap2ID": "id-74677"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2026-04-24T18:23:39.107Z",
+                "privateRepo": false,
+                "repoName": "Involute_Gear",
+                "dateCreated": "2026-04-21T21:23:02Z",
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Involute_Gear/master/README.md?sanitize=true",
+                "yyyy": 2026,
+                "topMoleculeID": "id-709",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Involute_Gear",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739730",
+                "ranking": 0,
+                "searchField": "involute_gear barboursmith generates an involute gear given the number of teeth, tooth ptich, thickness and the pressure angle ",
+                "owner": "BarbourSmith",
+                "description": "Generates an involute gear given the number of teeth, tooth ptich, thickness and the pressure angle",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Involute_Gear/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Involute_Gear/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "MM",
+              "fileTypeVersion": 1
             }
           ],
           "allConnectors": [
-            {
-              "ap2Name": "Shape 2",
-              "ap1ID": "id-4362",
-              "ap2ID": "id-19188"
-            },
             {
               "ap2Name": "Shape 1",
               "ap1ID": "id-12078",
@@ -9093,9 +9376,9 @@
               "ap2ID": "id-17334"
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "geometry",
               "ap1ID": "id-17334",
-              "ap2ID": "id-17338"
+              "ap2ID": "id-74666"
             },
             {
               "ap2Name": "geometry",
@@ -9126,6 +9409,21 @@
               "ap2Name": "geometry",
               "ap1ID": "id-11889",
               "ap2ID": "id-12085"
+            },
+            {
+              "ap2Name": "Shape 3",
+              "ap1ID": "id-74644",
+              "ap2ID": "id-19188"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-74666",
+              "ap2ID": "id-17338"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-74684",
+              "ap2ID": "id-19188"
             }
           ],
           "fileTypeVersion": 1
@@ -9397,19 +9695,7 @@
                           ]
                         },
                         "color": "#aad7f2",
-                        "bom": [],
-                        "boundingBox": {
-                          "min": [
-                            -30.0000001,
-                            -30.0000001,
-                            -5.0000001
-                          ],
-                          "max": [
-                            30.0000001,
-                            30.0000001,
-                            1e-7
-                          ]
-                        }
+                        "bom": []
                       }
                     },
                     {
@@ -9438,19 +9724,7 @@
                           ]
                         },
                         "bom": [],
-                        "dimension": "3D",
-                        "boundingBox": {
-                          "min": [
-                            -35.61340483121422,
-                            -36.593702850157975,
-                            -1e-7
-                          ],
-                          "max": [
-                            36.92270134332844,
-                            36.593702850157975,
-                            20.0000001
-                          ]
-                        }
+                        "dimension": "3D"
                       }
                     },
                     {
@@ -9477,19 +9751,7 @@
                           ]
                         },
                         "color": "#aad7f2",
-                        "bom": [],
-                        "boundingBox": {
-                          "min": [
-                            -28.5000001,
-                            -28.5000001,
-                            -1.0000001
-                          ],
-                          "max": [
-                            28.5000001,
-                            28.5000001,
-                            1e-7
-                          ]
-                        }
+                        "bom": []
                       }
                     }
                   ],
@@ -10634,19 +10896,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -45.000001,
-                                -25.000001,
-                                0
-                              ],
-                              "max": [
-                                -38.999999,
-                                -18.999999,
-                                0
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -10673,19 +10923,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -45.000001,
-                                18.999999,
-                                0
-                              ],
-                              "max": [
-                                -38.999999,
-                                25.000001,
-                                0
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -10712,19 +10950,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                38.999999,
-                                -25.000001,
-                                0
-                              ],
-                              "max": [
-                                45.000001,
-                                -18.999999,
-                                0
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -10751,19 +10977,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                38.999999,
-                                18.999999,
-                                0
-                              ],
-                              "max": [
-                                45.000001,
-                                25.000001,
-                                0
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -11614,19 +11828,7 @@
                         },
                         "color": "#aad7f2",
                         "tags": [],
-                        "bom": [],
-                        "boundingBox": {
-                          "min": [
-                            -13.7500001,
-                            -15.2500001,
-                            -48.0000001
-                          ],
-                          "max": [
-                            51.7500001,
-                            15.2500001,
-                            1e-7
-                          ]
-                        }
+                        "bom": []
                       }
                     },
                     {
@@ -11653,19 +11855,7 @@
                         },
                         "color": "#aad7f2",
                         "tags": [],
-                        "bom": [],
-                        "boundingBox": {
-                          "min": [
-                            -19.0000001,
-                            -4.0000001,
-                            -48.0000001
-                          ],
-                          "max": [
-                            -10.9999999,
-                            4.0000001,
-                            1e-7
-                          ]
-                        }
+                        "bom": []
                       }
                     },
                     {
@@ -11694,19 +11884,7 @@
                         },
                         "bom": [
                           []
-                        ],
-                        "boundingBox": {
-                          "min": [
-                            -34.0000001,
-                            -6.0000001,
-                            -48.40000010000001
-                          ],
-                          "max": [
-                            -13.999999899999999,
-                            6.000000100000004,
-                            -33.9999999
-                          ]
-                        }
+                        ]
                       }
                     }
                   ],
@@ -11938,19 +12116,7 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -0.0000010000049999999999,
-                                8.399998999994999,
-                                0
-                              ],
-                              "max": [
-                                0.0000010000049999999999,
-                                8.400001000004998,
-                                0
-                              ]
-                            }
+                            "bom": []
                           }
                         },
                         {
@@ -12232,19 +12398,7 @@
                             },
                             "color": "#aad7f2",
                             "tags": [],
-                            "bom": [],
-                            "boundingBox": {
-                              "min": [
-                                -42.0000001,
-                                -3.0000001,
-                                5.9999999
-                              ],
-                              "max": [
-                                -31.9999999,
-                                3.0000001,
-                                10.0000001
-                              ]
-                            }
+                            "bom": []
                           }
                         }
                       ],
@@ -12418,19 +12572,7 @@
                                 },
                                 "color": "#aad7f2",
                                 "tags": [],
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -32.5000001,
-                                    -15.0000001,
-                                    -1e-7
-                                  ],
-                                  "max": [
-                                    32.5000001,
-                                    15.0000001,
-                                    48.0000001
-                                  ]
-                                }
+                                "bom": []
                               }
                             },
                             {
@@ -12457,19 +12599,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "dimension": "3D",
-                                "boundingBox": {
-                                  "min": [
-                                    -28.0000001,
-                                    -9.0000001,
-                                    -6.0000001
-                                  ],
-                                  "max": [
-                                    -9.9999999,
-                                    9.0000001,
-                                    1e-7
-                                  ]
-                                }
+                                "dimension": "3D"
                               }
                             }
                           ],
@@ -12585,19 +12715,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -9.0000001,
-                                    -9.0000001,
-                                    -2.0000001
-                                  ],
-                                  "max": [
-                                    9.0000001,
-                                    9.0000001,
-                                    1e-7
-                                  ]
-                                }
+                                "bom": []
                               }
                             },
                             {
@@ -12624,19 +12742,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -3.2500001,
-                                    -3.2500001,
-                                    -6.0000001
-                                  ],
-                                  "max": [
-                                    3.2500001,
-                                    3.2500001,
-                                    1e-7
-                                  ]
-                                }
+                                "bom": []
                               }
                             }
                           ],
@@ -12899,19 +13005,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -6.0000001,
-                                    -6.0000001,
-                                    4.9999999
-                                  ],
-                                  "max": [
-                                    6.0000001,
-                                    6.0000001,
-                                    7.0000001
-                                  ]
-                                }
+                                "bom": []
                               }
                             },
                             {
@@ -12938,19 +13032,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -15.0000001,
-                                    -15.0000001,
-                                    -1e-7
-                                  ],
-                                  "max": [
-                                    15.0000001,
-                                    15.0000001,
-                                    5.0000001
-                                  ]
-                                }
+                                "bom": []
                               }
                             },
                             {
@@ -12977,19 +13059,7 @@
                                   ]
                                 },
                                 "color": "#aad7f2",
-                                "bom": [],
-                                "boundingBox": {
-                                  "min": [
-                                    -2.5000001,
-                                    -2.5000001,
-                                    6.9999999
-                                  ],
-                                  "max": [
-                                    2.5000001,
-                                    2.5000001,
-                                    9.0000001
-                                  ]
-                                }
+                                "bom": []
                               }
                             }
                           ],
@@ -13234,19 +13304,7 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": [],
-                                    "boundingBox": {
-                                      "min": [
-                                        -2.0000001,
-                                        -2.0000001,
-                                        -1e-7
-                                      ],
-                                      "max": [
-                                        2.0000001,
-                                        2.0000001,
-                                        1.0000001
-                                      ]
-                                    }
+                                    "bom": []
                                   }
                                 },
                                 {
@@ -13273,19 +13331,7 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": [],
-                                    "boundingBox": {
-                                      "min": [
-                                        -1.2500001,
-                                        -1.2500001,
-                                        -6.0000001
-                                      ],
-                                      "max": [
-                                        1.2500001,
-                                        1.2500001,
-                                        1e-7
-                                      ]
-                                    }
+                                    "bom": []
                                   }
                                 }
                               ],
@@ -13976,19 +14022,7 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": [],
-                                    "boundingBox": {
-                                      "min": [
-                                        -2.0000001,
-                                        -2.0000001,
-                                        -1e-7
-                                      ],
-                                      "max": [
-                                        2.0000001,
-                                        2.0000001,
-                                        1.0000001
-                                      ]
-                                    }
+                                    "bom": []
                                   }
                                 },
                                 {
@@ -14015,19 +14049,7 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": [],
-                                    "boundingBox": {
-                                      "min": [
-                                        -1.2500001,
-                                        -1.2500001,
-                                        -6.0000001
-                                      ],
-                                      "max": [
-                                        1.2500001,
-                                        1.2500001,
-                                        1e-7
-                                      ]
-                                    }
+                                    "bom": []
                                   }
                                 }
                               ],
@@ -14581,19 +14603,7 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": [],
-                                    "boundingBox": {
-                                      "min": [
-                                        -2.0000001,
-                                        -2.0000001,
-                                        -1e-7
-                                      ],
-                                      "max": [
-                                        2.0000001,
-                                        2.0000001,
-                                        1.0000001
-                                      ]
-                                    }
+                                    "bom": []
                                   }
                                 },
                                 {
@@ -14620,19 +14630,7 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": [],
-                                    "boundingBox": {
-                                      "min": [
-                                        -1.2500001,
-                                        -1.2500001,
-                                        -6.0000001
-                                      ],
-                                      "max": [
-                                        1.2500001,
-                                        1.2500001,
-                                        1e-7
-                                      ]
-                                    }
+                                    "bom": []
                                   }
                                 }
                               ],
