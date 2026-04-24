@@ -718,192 +718,6 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.7638888888888888,
-      "y": 0.8555555555555556,
-      "uniqueID": "id-10391",
-      "name": "Extract Top",
-      "ioValues": [
-        {
-          "name": "input",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-10393",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
-          "uniqueID": "id-10395",
-          "name": "input",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.20767195767195767,
-          "y": 0.6666666666666666,
-          "uniqueID": "id-10398",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 500
-            },
-            {
-              "name": "y length",
-              "ioValue": 500
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.30767195767195765,
-          "y": 0.6666666666666666,
-          "uniqueID": "id-10402",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 500
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.40767195767195763,
-          "y": 0.6666666666666666,
-          "uniqueID": "id-10406",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 250
-            }
-          ]
-        },
-        {
-          "atomType": "Intersection",
-          "x": 0.5376984126984127,
-          "y": 0.4361111111111111,
-          "uniqueID": "id-10412",
-          "ioValues": [
-            {
-              "name": "geometry1",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "geometry2",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "ExtractTag",
-          "x": 0.6263227513227514,
-          "y": 0.7055555555555556,
-          "uniqueID": "id-10416",
-          "name": "Extract Tag",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tag": "Plastic",
-          "tagIndex": 0
-        },
-        {
-          "atomType": "Export",
-          "x": 0.7328042328042328,
-          "y": 0.85,
-          "uniqueID": "id-10419",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "STL",
-              "currentEquation": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "Extract Top",
-              "currentEquation": "Extract Top"
-            }
-          ],
-          "type": null,
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "Extract Top"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "geometry1",
-          "ap1ID": "id-10395",
-          "ap2ID": "id-10412"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-10398",
-          "ap2ID": "id-10402"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-10402",
-          "ap2ID": "id-10406"
-        },
-        {
-          "ap2Name": "geometry2",
-          "ap1ID": "id-10406",
-          "ap2ID": "id-10412"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-10412",
-          "ap2ID": "id-10416"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-10416",
-          "ap2ID": "id-10419"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
       "x": 0.29563492063492064,
       "y": 0.8690807799442898,
       "uniqueID": "id-74858",
@@ -10034,8 +9848,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.7824074074074073,
-              "y": 0.3333333333333333,
+              "x": 0.7830687830687831,
+              "y": 0.28969359331476324,
               "uniqueID": "id-12081",
               "ioValues": [
                 {
@@ -10074,8 +9888,8 @@
             },
             {
               "atomType": "ExtractTag",
-              "x": 0.7658730158730159,
-              "y": 0.7861111111111112,
+              "x": 0.6911375661375662,
+              "y": 0.8523676880222841,
               "uniqueID": "id-12092",
               "name": "Extract Tag",
               "ioValues": [
@@ -10249,8 +10063,8 @@
             },
             {
               "atomType": "Export",
-              "x": 0.8492063492063493,
-              "y": 0.8027777777777778,
+              "x": 0.7896825396825398,
+              "y": 0.9136490250696379,
               "uniqueID": "id-30127",
               "ioValues": [
                 {
@@ -13121,6 +12935,51 @@
                 }
               ],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "ExtractTag",
+              "x": 0.8101851851851852,
+              "y": 0.67966573816156,
+              "uniqueID": "id-77569",
+              "name": "Extract Tag",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "tag": "Outer Clamp Plastic",
+              "tagIndex": 0
+            },
+            {
+              "atomType": "Export",
+              "x": 0.8988095238095238,
+              "y": 0.8022284122562675,
+              "uniqueID": "id-77572",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "File Type",
+                  "ioValue": "STL",
+                  "currentEquation": "STL"
+                },
+                {
+                  "name": "Resolution (dpi)",
+                  "ioValue": 96
+                },
+                {
+                  "name": "Part Name",
+                  "ioValue": "Shaft Gear Clamp",
+                  "currentEquation": "Shaft Gear Clamp"
+                }
+              ],
+              "type": null,
+              "resolution": 96,
+              "importIndex": 0,
+              "partName": "Shaft Gear Clamp"
             }
           ],
           "allConnectors": [
@@ -13138,6 +12997,11 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-12081",
               "ap2ID": "id-4343"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-12081",
+              "ap2ID": "id-77569"
             },
             {
               "ap2Name": "Shape 2",
@@ -13198,6 +13062,11 @@
               "ap2Name": "geometry",
               "ap1ID": "id-11889",
               "ap2ID": "id-12085"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-77569",
+              "ap2ID": "id-77572"
             }
           ],
           "fileTypeVersion": 1
@@ -19915,11 +19784,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-2580",
       "ap2ID": "id-915"
-    },
-    {
-      "ap2Name": "input",
-      "ap1ID": "id-2580",
-      "ap2ID": "id-10391"
     },
     {
       "ap2Name": "Shape 6",
