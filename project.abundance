@@ -9535,8 +9535,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.7612433862433863,
-          "y": 0.23676880222841226,
+          "x": 0.7572751322751322,
+          "y": 0.2256267409470752,
           "uniqueID": "id-3088",
           "name": "Extract Tag",
           "ioValues": [
@@ -9664,14 +9664,14 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "Motor Version",
-              "currentEquation": "Motor Version"
+              "ioValue": "Upper Main Brace",
+              "currentEquation": "Upper Main Brace"
             }
           ],
           "type": null,
           "resolution": 96,
           "importIndex": 0,
-          "partName": "Motor Version"
+          "partName": "Upper Main Brace"
         },
         {
           "atomType": "Assembly",
