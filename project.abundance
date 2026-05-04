@@ -20,8 +20,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.8396946564885496,
-      "y": 0.35789473684210527,
+      "x": 0.8425925925925926,
+      "y": 0.36768802228412256,
       "uniqueID": "id-915",
       "name": "Extract Tag",
       "ioValues": [
@@ -468,7 +468,7 @@
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": null
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
             },
@@ -598,7 +598,7 @@
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": null
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "closedSelection": 0
@@ -979,7 +979,7 @@
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": null
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "closedSelection": 0
@@ -1660,10 +1660,6 @@
                     {
                       "name": "distZ",
                       "ioValue": 0
-                    },
-                    {
-                      "name": "Shape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -2000,7 +1996,7 @@
                         },
                         {
                           "name": "Shape 3",
-                          "ioValue": ""
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "closedSelection": 0
@@ -2412,7 +2408,7 @@
                         },
                         {
                           "name": "Shape 3",
-                          "ioValue": null
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
                     }
@@ -2793,11 +2789,11 @@
                       "uniqueID": "id-75042",
                       "ioValues": [
                         {
-                          "name": "geometry1",
+                          "name": "retain",
                           "ioValue": "__GEOMETRY_INPUT__"
                         },
                         {
-                          "name": "geometry2",
+                          "name": "remove",
                           "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
@@ -2815,12 +2811,12 @@
                       "ap2ID": "id-75041"
                     },
                     {
-                      "ap2Name": "geometry1",
+                      "ap2Name": "retain",
                       "ap1ID": "id-75040",
                       "ap2ID": "id-75042"
                     },
                     {
-                      "ap2Name": "geometry2",
+                      "ap2Name": "remove",
                       "ap1ID": "id-75041",
                       "ap2ID": "id-75042"
                     },
@@ -3053,11 +3049,11 @@
                       "uniqueID": "id-75053",
                       "ioValues": [
                         {
-                          "name": "geometry1",
+                          "name": "retain",
                           "ioValue": "__GEOMETRY_INPUT__"
                         },
                         {
-                          "name": "geometry2",
+                          "name": "remove",
                           "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
@@ -3075,12 +3071,12 @@
                       "ap2ID": "id-75052"
                     },
                     {
-                      "ap2Name": "geometry1",
+                      "ap2Name": "retain",
                       "ap1ID": "id-75051",
                       "ap2ID": "id-75053"
                     },
                     {
-                      "ap2Name": "geometry2",
+                      "ap2Name": "remove",
                       "ap1ID": "id-75052",
                       "ap2ID": "id-75053"
                     },
@@ -3344,11 +3340,11 @@
           "uniqueID": "id-40145",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -4436,11 +4432,11 @@
                       "uniqueID": "id-37611",
                       "ioValues": [
                         {
-                          "name": "geometry1",
+                          "name": "retain",
                           "ioValue": "__GEOMETRY_INPUT__"
                         },
                         {
-                          "name": "geometry2",
+                          "name": "remove",
                           "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
@@ -4652,11 +4648,11 @@
                           "uniqueID": "id-37608",
                           "ioValues": [
                             {
-                              "name": "geometry1",
+                              "name": "retain",
                               "ioValue": "__GEOMETRY_INPUT__"
                             },
                             {
-                              "name": "geometry2",
+                              "name": "remove",
                               "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ]
@@ -4674,12 +4670,12 @@
                           "ap2ID": "id-37607"
                         },
                         {
-                          "ap2Name": "geometry1",
+                          "ap2Name": "retain",
                           "ap1ID": "id-37606",
                           "ap2ID": "id-37608"
                         },
                         {
-                          "ap2Name": "geometry2",
+                          "ap2Name": "remove",
                           "ap1ID": "id-37607",
                           "ap2ID": "id-37608"
                         },
@@ -4798,16 +4794,6 @@
                           "x": 0.4920634920634921,
                           "y": 0.5766016713091923,
                           "uniqueID": "id-37621",
-                          "ioValues": [
-                            {
-                              "name": "inputShape",
-                              "ioValue": "__GEOMETRY_INPUT__"
-                            },
-                            {
-                              "name": "radius",
-                              "ioValue": "__GEOMETRY_INPUT__"
-                            }
-                          ],
                           "codeVersion": 1,
                           "code": "      //Inputs:[inputShape, radius]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n      \n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let chamferedShape = await Fillet(inputShape, radius);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [chamferedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      return shape1"
                         },
@@ -4820,10 +4806,6 @@
                             {
                               "name": "radius",
                               "ioValue": 2
-                            },
-                            {
-                              "name": "inputShape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -4938,7 +4920,7 @@
                       "ap2ID": "id-37610"
                     },
                     {
-                      "ap2Name": "geometry2",
+                      "ap2Name": "remove",
                       "ap1ID": "id-37610",
                       "ap2ID": "id-37611"
                     },
@@ -4963,7 +4945,7 @@
                       "ap2ID": "id-37615"
                     },
                     {
-                      "ap2Name": "geometry1",
+                      "ap2Name": "retain",
                       "ap1ID": "id-37602",
                       "ap2ID": "id-37611"
                     },
@@ -5148,7 +5130,7 @@
                         },
                         {
                           "name": "Shape 3",
-                          "ioValue": null
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
                     },
@@ -5328,11 +5310,11 @@
                       "uniqueID": "id-37660",
                       "ioValues": [
                         {
-                          "name": "geometry1",
+                          "name": "retain",
                           "ioValue": "__GEOMETRY_INPUT__"
                         },
                         {
-                          "name": "geometry2",
+                          "name": "remove",
                           "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
@@ -5742,7 +5724,7 @@
                             },
                             {
                               "name": "Shape 5",
-                              "ioValue": ""
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ]
                         }
@@ -5947,7 +5929,7 @@
                       "ap2ID": "id-37638"
                     },
                     {
-                      "ap2Name": "geometry1",
+                      "ap2Name": "retain",
                       "ap1ID": "id-37638",
                       "ap2ID": "id-37660"
                     },
@@ -5967,7 +5949,7 @@
                       "ap2ID": "id-37659"
                     },
                     {
-                      "ap2Name": "geometry2",
+                      "ap2Name": "remove",
                       "ap1ID": "id-37659",
                       "ap2ID": "id-37660"
                     },
@@ -6147,7 +6129,7 @@
           "ap2ID": "id-37906"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-37906",
           "ap2ID": "id-40145"
         },
@@ -6187,7 +6169,7 @@
           "ap2ID": "id-42476"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-42476",
           "ap2ID": "id-40145"
         },
@@ -6257,11 +6239,11 @@
           "uniqueID": "id-2583",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -6358,11 +6340,11 @@
           "uniqueID": "id-3095",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -6666,11 +6648,11 @@
               "uniqueID": "id-4438",
               "ioValues": [
                 {
-                  "name": "geometry1",
+                  "name": "retain",
                   "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
-                  "name": "geometry2",
+                  "name": "remove",
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
@@ -6678,7 +6660,7 @@
           ],
           "allConnectors": [
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": "id-4429",
               "ap2ID": "id-4438"
             },
@@ -6718,7 +6700,7 @@
               "ap2ID": "id-4437"
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": "id-4437",
               "ap2ID": "id-4438"
             },
@@ -6880,11 +6862,11 @@
               "uniqueID": "id-17338",
               "ioValues": [
                 {
-                  "name": "geometry1",
+                  "name": "retain",
                   "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
-                  "name": "geometry2",
+                  "name": "remove",
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
@@ -7358,7 +7340,7 @@
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": null
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "closedSelection": 0
@@ -7691,7 +7673,7 @@
                     },
                     {
                       "name": "Shape 4",
-                      "ioValue": null
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "closedSelection": 0
@@ -7703,11 +7685,11 @@
                   "uniqueID": "id-17366",
                   "ioValues": [
                     {
-                      "name": "geometry1",
+                      "name": "retain",
                       "ioValue": "__GEOMETRY_INPUT__"
                     },
                     {
-                      "name": "geometry2",
+                      "name": "remove",
                       "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ]
@@ -7998,7 +7980,7 @@
                   "ap2ID": "id-17363"
                 },
                 {
-                  "ap2Name": "geometry1",
+                  "ap2Name": "retain",
                   "ap1ID": "id-17363",
                   "ap2ID": "id-17366"
                 },
@@ -8033,7 +8015,7 @@
                   "ap2ID": "id-17363"
                 },
                 {
-                  "ap2Name": "geometry2",
+                  "ap2Name": "remove",
                   "ap1ID": "id-63192",
                   "ap2ID": "id-17366"
                 }
@@ -8226,7 +8208,7 @@
                         },
                         {
                           "name": "Shape 3",
-                          "ioValue": null
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "closedSelection": 0
@@ -8266,11 +8248,11 @@
                       "uniqueID": "id-13674",
                       "ioValues": [
                         {
-                          "name": "geometry1",
+                          "name": "retain",
                           "ioValue": "__GEOMETRY_INPUT__"
                         },
                         {
-                          "name": "geometry2",
+                          "name": "remove",
                           "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
@@ -8632,11 +8614,11 @@
                           "uniqueID": "id-58024",
                           "ioValues": [
                             {
-                              "name": "geometry1",
+                              "name": "retain",
                               "ioValue": "__GEOMETRY_INPUT__"
                             },
                             {
-                              "name": "geometry2",
+                              "name": "remove",
                               "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ]
@@ -8644,7 +8626,7 @@
                       ],
                       "allConnectors": [
                         {
-                          "ap2Name": "geometry1",
+                          "ap2Name": "retain",
                           "ap1ID": "id-58015",
                           "ap2ID": "id-58024"
                         },
@@ -8684,7 +8666,7 @@
                           "ap2ID": "id-58023"
                         },
                         {
-                          "ap2Name": "geometry2",
+                          "ap2Name": "remove",
                           "ap1ID": "id-58023",
                           "ap2ID": "id-58024"
                         },
@@ -9848,7 +9830,7 @@
                       "ap2ID": "id-13670"
                     },
                     {
-                      "ap2Name": "geometry1",
+                      "ap2Name": "retain",
                       "ap1ID": "id-13670",
                       "ap2ID": "id-13674"
                     },
@@ -9893,7 +9875,7 @@
                       "ap2ID": "id-33840"
                     },
                     {
-                      "ap2Name": "geometry2",
+                      "ap2Name": "remove",
                       "ap1ID": "id-33840",
                       "ap2ID": "id-13674"
                     },
@@ -9973,7 +9955,7 @@
               "ap2ID": "id-12078"
             },
             {
-              "ap2Name": "geometry1",
+              "ap2Name": "retain",
               "ap1ID": "id-19188",
               "ap2ID": "id-17338"
             },
@@ -9983,7 +9965,7 @@
               "ap2ID": "id-19188"
             },
             {
-              "ap2Name": "geometry2",
+              "ap2Name": "remove",
               "ap1ID": "id-74666",
               "ap2ID": "id-17338"
             },
@@ -10607,11 +10589,11 @@
                       "uniqueID": "id-4394",
                       "ioValues": [
                         {
-                          "name": "geometry1",
+                          "name": "retain",
                           "ioValue": "__GEOMETRY_INPUT__"
                         },
                         {
-                          "name": "geometry2",
+                          "name": "remove",
                           "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
@@ -10629,12 +10611,12 @@
                       "ap2ID": "id-4393"
                     },
                     {
-                      "ap2Name": "geometry1",
+                      "ap2Name": "retain",
                       "ap1ID": "id-4392",
                       "ap2ID": "id-4394"
                     },
                     {
-                      "ap2Name": "geometry2",
+                      "ap2Name": "remove",
                       "ap1ID": "id-4393",
                       "ap2ID": "id-4394"
                     },
@@ -10747,11 +10729,11 @@
                       "uniqueID": "id-4479",
                       "ioValues": [
                         {
-                          "name": "geometry1",
+                          "name": "retain",
                           "ioValue": "__GEOMETRY_INPUT__"
                         },
                         {
-                          "name": "geometry2",
+                          "name": "remove",
                           "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
@@ -10769,12 +10751,12 @@
                       "ap2ID": "id-4478"
                     },
                     {
-                      "ap2Name": "geometry1",
+                      "ap2Name": "retain",
                       "ap1ID": "id-4477",
                       "ap2ID": "id-4479"
                     },
                     {
-                      "ap2Name": "geometry2",
+                      "ap2Name": "remove",
                       "ap1ID": "id-4478",
                       "ap2ID": "id-4479"
                     },
@@ -10887,11 +10869,11 @@
                       "uniqueID": "id-24545",
                       "ioValues": [
                         {
-                          "name": "geometry1",
+                          "name": "retain",
                           "ioValue": "__GEOMETRY_INPUT__"
                         },
                         {
-                          "name": "geometry2",
+                          "name": "remove",
                           "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
@@ -10909,12 +10891,12 @@
                       "ap2ID": "id-24544"
                     },
                     {
-                      "ap2Name": "geometry1",
+                      "ap2Name": "retain",
                       "ap1ID": "id-24543",
                       "ap2ID": "id-24545"
                     },
                     {
-                      "ap2Name": "geometry2",
+                      "ap2Name": "remove",
                       "ap1ID": "id-24544",
                       "ap2ID": "id-24545"
                     },
@@ -11304,11 +11286,11 @@
                   "uniqueID": "id-68677",
                   "ioValues": [
                     {
-                      "name": "geometry1",
+                      "name": "retain",
                       "ioValue": "__GEOMETRY_INPUT__"
                     },
                     {
-                      "name": "geometry2",
+                      "name": "remove",
                       "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ]
@@ -12082,7 +12064,7 @@
                         },
                         {
                           "name": "Shape 5",
-                          "ioValue": ""
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
                     }
@@ -12413,10 +12395,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -12887,7 +12865,7 @@
                             },
                             {
                               "name": "Shape 3",
-                              "ioValue": null
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ]
                         }
@@ -12978,7 +12956,7 @@
               ],
               "allConnectors": [
                 {
-                  "ap2Name": "geometry1",
+                  "ap2Name": "retain",
                   "ap1ID": "id-68530",
                   "ap2ID": "id-68677"
                 },
@@ -13038,7 +13016,7 @@
                   "ap2ID": "id-74833"
                 },
                 {
-                  "ap2Name": "geometry2",
+                  "ap2Name": "remove",
                   "ap1ID": "id-74833",
                   "ap2ID": "id-68677"
                 },
@@ -13611,7 +13589,7 @@
                         },
                         {
                           "name": "Shape 3",
-                          "ioValue": null
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ]
                     }
@@ -16635,12 +16613,12 @@
           "ap2ID": "id-2591"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-2591",
           "ap2ID": "id-2583"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-2598",
           "ap2ID": "id-2583"
         },
@@ -16650,7 +16628,7 @@
           "ap2ID": "id-47914"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-3092",
           "ap2ID": "id-3095"
         },
@@ -16685,7 +16663,7 @@
           "ap2ID": "id-4366"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-72364",
           "ap2ID": "id-3095"
         },
