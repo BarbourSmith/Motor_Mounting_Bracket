@@ -1020,7 +1020,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "extrude-circle-3.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--82",
+                        "geometry": "extrude-circle-3.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--101.6",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -1060,8 +1060,8 @@
                     },
                     {
                       "name": "Item Name",
-                      "ioValue": "1/4in by 3.25in Low Profile Bolt ",
-                      "currentEquation": "1/4in by 3.25in Low Profile Bolt "
+                      "ioValue": "1/4in by 4 in Low Profile Bolt ",
+                      "currentEquation": "1/4in by 4 in Low Profile Bolt "
                     },
                     {
                       "name": "Number Needed",
@@ -1073,14 +1073,15 @@
                     },
                     {
                       "name": "Source Link",
-                      "ioValue": ""
+                      "ioValue": "https://amzn.to/4fCtj98",
+                      "currentEquation": "https://amzn.to/4fCtj98"
                     }
                   ],
                   "BOMitem": {
-                    "BOMitemName": "1/4in by 3.25in Low Profile Bolt ",
+                    "BOMitemName": "1/4in by 4 in Low Profile Bolt ",
                     "numberNeeded": 1,
                     "costUSD": 1,
-                    "source": ""
+                    "source": "https://amzn.to/4fCtj98"
                   }
                 },
                 {
@@ -1095,7 +1096,8 @@
                     },
                     {
                       "name": "height",
-                      "ioValue": -82
+                      "ioValue": -101.6,
+                      "currentEquation": "-4*25.4"
                     }
                   ]
                 },
@@ -1168,7 +1170,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": -71
+                      "ioValue": -86
                     }
                   ]
                 },
