@@ -6445,8 +6445,8 @@
             },
             {
               "name": "File Type",
-              "ioValue": "STL",
-              "currentEquation": "STL"
+              "ioValue": "STEP",
+              "currentEquation": "STEP"
             },
             {
               "name": "Resolution (dpi)",
@@ -6458,7 +6458,7 @@
               "currentEquation": "Upper Main Brace"
             }
           ],
-          "type": null,
+          "type": "STEP",
           "resolution": 96,
           "importIndex": 0,
           "partName": "Upper Main Brace"
