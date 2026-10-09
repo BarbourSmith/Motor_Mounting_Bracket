@@ -2,7 +2,7 @@
 
 # Motor_Mounting_Bracket
 
-![](/project.svg)
+![](/project.png)
 
 
 

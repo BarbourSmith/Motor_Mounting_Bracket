@@ -6,6 +6,7 @@
 |25mm M3 Bolt|4|$0.00||
 |M2.5x6mm Bolt|17|$0.00||
 |1.25in screw|10|$0.00||
+|1/4in by 4 in Low Profile Bolt |2|$2.00|https://amzn.to/4fCtj98|
 |35mm Bearing|1|$3.39|https://amzn.to/4n8PNkd|
 |24 Volt Servo|1|$44.85|[Amazon](https://www.amazon.com/dp/B0DFWQD5JL?tag=maslowcnc01-20)|
-|Total: |37|$48.24| |
+|Total: |39|$50.24| |
