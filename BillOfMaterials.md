@@ -10,3 +10,5 @@
 |35mm Bearing|1|$3.39|https://amzn.to/4n8PNkd|
 |24 Volt Servo|1|$44.85|[Amazon](https://www.amazon.com/dp/B0DFWQD5JL?tag=maslowcnc01-20)|
 |Total: |39|$50.24| |
+
+_Amazon links in this list are affiliate links to fund development_
