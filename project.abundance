@@ -6129,7 +6129,7 @@
             },
             {
               "atomType": "ExtractTag",
-              "x": 0.7,
+              "x": 0.703,
               "y": 0.8,
               "uniqueID": "id-12092",
               "name": "Extract Bottom Plastic",
@@ -6668,60 +6668,6 @@
               },
               "unitsKey": "MM",
               "fileTypeVersion": 1
-            },
-            {
-              "atomType": "ExtractTag",
-              "x": 0.9,
-              "y": 0.6,
-              "uniqueID": "id-77569",
-              "name": "Extract Top Plastic",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ],
-              "tag": "Top Plastic",
-              "tagIndex": 0,
-              "selectedTags": [
-                "Top Plastic"
-              ],
-              "includeUntagged": false,
-              "notKeepOut": false
-            },
-            {
-              "atomType": "Export",
-              "x": 1,
-              "y": 0.8,
-              "uniqueID": "id-77572",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "File Type",
-                  "ioValue": "STEP",
-                  "currentEquation": "STEP"
-                },
-                {
-                  "name": "Resolution (dpi)",
-                  "ioValue": 96
-                },
-                {
-                  "name": "STL Tolerance",
-                  "ioValue": 0.05
-                },
-                {
-                  "name": "Part Name",
-                  "ioValue": "Top Cover",
-                  "currentEquation": "Top Cover"
-                }
-              ],
-              "type": "STEP",
-              "resolution": 96,
-              "importIndex": 0,
-              "partName": "Top Cover"
             },
             {
               "atomType": "Molecule",
@@ -11897,8 +11843,8 @@
             },
             {
               "atomType": "Export",
-              "x": 0.8,
-              "y": 0.8,
+              "x": 0.8022,
+              "y": 0.7775,
               "uniqueID": "id-87838",
               "ioValues": [
                 {
@@ -13243,8 +13189,8 @@
                 },
                 {
                   "atomType": "Molecule",
-                  "x": 0.6832,
-                  "y": 0.6789,
+                  "x": 0.6845,
+                  "y": 0.6169,
                   "uniqueID": "id-91474",
                   "name": "Plastic Body",
                   "ioValues": [
@@ -14058,7 +14004,7 @@
                       "x": 0.7864,
                       "y": 0.3915,
                       "uniqueID": "id-92171",
-                      "name": "Bottom plastic",
+                      "name": "Bottom Plastic",
                       "ioValues": [
                         {
                           "name": "geometry",
@@ -14066,7 +14012,7 @@
                         }
                       ],
                       "tags": [
-                        "Bottom plastic"
+                        "Bottom Plastic"
                       ]
                     }
                   ],
@@ -14179,7 +14125,7 @@
                 {
                   "atomType": "Molecule",
                   "x": 0.2077,
-                  "y": 0.2028,
+                  "y": 0.2254,
                   "uniqueID": "id-91516",
                   "name": "Clamp Body",
                   "topLevel": false,
@@ -15960,8 +15906,8 @@
                 },
                 {
                   "atomType": "Assembly",
-                  "x": 0.8366,
-                  "y": 0.707,
+                  "x": 0.8783,
+                  "y": 0.5746,
                   "uniqueID": "id-92174",
                   "ioValues": [
                     {
@@ -15978,6 +15924,10 @@
                     },
                     {
                       "name": "Shape3",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape4",
                       "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ]
@@ -16648,6 +16598,31 @@
                     }
                   ],
                   "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.8194,
+                  "y": 0.8282,
+                  "uniqueID": "id-93064",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 30,
+                      "currentEquation": "30"
+                    }
+                  ]
                 }
               ],
               "allConnectors": [
@@ -16735,6 +16710,16 @@
                   "ap2Name": "Shape 1",
                   "ap1ID": "id-92180",
                   "ap2ID": "id-92174"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-92949",
+                  "ap2ID": "id-93064"
+                },
+                {
+                  "ap2Name": "Shape3",
+                  "ap1ID": "id-93064",
+                  "ap2ID": "id-92174"
                 }
               ],
               "fileTypeVersion": 1
@@ -16781,11 +16766,6 @@
               "ap2ID": "id-4343"
             },
             {
-              "ap2Name": "geometry",
-              "ap1ID": "id-12081",
-              "ap2ID": "id-77569"
-            },
-            {
               "ap2Name": "Geometry",
               "ap1ID": "id-12081",
               "ap2ID": "id-87542"
@@ -16829,11 +16809,6 @@
               "ap2Name": "Shape 2",
               "ap1ID": "id-74684",
               "ap2ID": "id-19188"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-77569",
-              "ap2ID": "id-77572"
             },
             {
               "ap2Name": "geometry",
