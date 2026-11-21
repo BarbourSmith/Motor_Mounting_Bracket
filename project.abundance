@@ -6081,8 +6081,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.3975,
-          "y": 0.893,
+          "x": 0.3922,
+          "y": 0.8986,
           "uniqueID": "id-4341",
           "name": "Shaft Gear",
           "topLevel": false,
@@ -11728,8 +11728,8 @@
             },
             {
               "atomType": "Export",
-              "x": 0.8022,
-              "y": 0.7775,
+              "x": 0.8029,
+              "y": 0.7831,
               "uniqueID": "id-87838",
               "ioValues": [
                 {
@@ -16617,8 +16617,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -5.5,
-                  "currentEquation": "-5.5"
+                  "ioValue": -5.5
                 },
                 {
                   "name": "yDist",
@@ -16712,8 +16711,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6,
-          "y": 0.8,
+          "x": 0.6019,
+          "y": 0.8197,
           "uniqueID": "id-4366",
           "ioValues": [
             {
